@@ -1,0 +1,11 @@
+*.gem
+.bundle
+.sass-cache
+.jekyll-cache
+_site/jekyll-agency.gemspec
+_site/runLocal.sh
+_site/README.md
+_site/LICENSE.txt
+Gemfile.lock
+unused
+bootstrap-reference.html

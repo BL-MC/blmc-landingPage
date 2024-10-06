@@ -1,0 +1,169 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  header:
+    title: Secure Remote Access Control Platforms
+    text: BL Monitor and Control
+    button: Press Releases
+    buttonlink: "#services"
+    button2: Selected Projects
+    buttonlink2: "#portfolio"
+
+  services:
+    title: "Press Releases"
+    text: "Readup on recent articles about BL-MC and Blinky-Lite<sup>TM</sup>"
+    section: services
+    list:
+      - title: "[Yahoo!Finance](https://finance.yahoo.com/news/bl-monitor-control-framework-providing-140028878.html?guccounter=1&guce_referrer=aHR0cHM6Ly9pZDEwNzU0LnN1Ym1pdG15cHJlc3NyZWxlYXNlLmNvbS8&guce_referrer_sig=AQAAAI7Vz0tlUjGw8RYsUOY_mvlToVcmTSFaAMusv1ibPRyI_bk3fQEzTwvrUTwZYoj_NxiPcBPq-hGRVllgK5SGdfdMux4eKZitOs06cM1QdWUfspKLOfuSSf01wu3YfKU0cQ2vwefzWoy7RK6rejVkH_B6A6hCBONbOqme9dhtw8cl)"
+        desc: "#### BL Monitor and Control framework for providing secure remote access control platforms to SMBs ####"
+        icon: far fa-newspaper
+      - title: "[Business Insider](https://markets.businessinsider.com/news/stocks/bl-monitor-control-is-revolutionizing-digital-operations-with-secure-remote-access-controls-1032586946)"
+        desc: "#### BL Monitor & Control Is Revolutionizing Digital Operations with Secure Remote Access Controls ####"
+        icon: fas fa-newspaper
+
+  portfolio:
+    title: "Selected Projects"
+  #  text: "Lorem ipsum dolor sit amet consectetur."
+    section: portfolio
+    closebutton: "Close"
+
+  timeline:
+    title: "Secure Remote Access Controls"
+    text: "A proactive approach to troubleshooting using secure remote access could drastically increase meantime between failures (MTBF) while reducing the mean time to repair (MTTR) which both contribute to increasing your plant availability and to your bottom line."
+    section: timeline
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "The production nightmare"
+#        year: "2009-2011"
+        desc: "You run your automated production line 24/7. One of your key machines breaks down in the middle of the night and could cause you significant delays and costs. Time is running and you need to get the machine back to operation asap!"
+        image: assets/img/timeline/slide2.png
+        alt:
+      - title: "You need to start troubleshooting but…"
+#        year: "March 2011"
+        desc: "It’s a complex machine and your internal maintenance team needs external support from the experts. For security reasons, you can’t give your experts remote access to your machine. Now, the experts have to drive in off-hours to identify and fix the problem. Meanwhile, you’re losing money"
+        image: assets/img/timeline/slide3.png
+        alt:
+      - title: "But, what if…"
+#        year: "2019"
+        desc: "you could give the experts really secure access to only this particular machine from anywhere in the world, without compromising your existing control system? What if the experts could see the system parameters long before a breakdown? What if they could safely read out parameters and alarm lists, make changes to the system, view settings logs remotely?"
+        image: assets/img/timeline/slide4.png
+        alt: image alt text
+      - title: "Our approach"
+#        year: "2009-2011"
+        desc: "We are not rocket scientists but we are accelerator engineers who have been building atom smashers around the world for the past 25 years. In the world of complex and costly particle accelerators, we have a strong 24/7 maintenance mindset in place. It is essential for us to always understand the state of a machine remotely and to be able to securely troubleshoot it efficiently from anywhere in the world at any time. That’s why we developed Blinky-Lite"
+        image: assets/img/timeline/slide6.png
+        alt:
+        # you can enforce the alignment
+#        align: right
+      - title: "What makes Blinky-Lite so different?"
+#        year: "2009-2011"
+        desc: "Mobility - Security - Flexibility - Services - Open source"
+        image: assets/img/timeline/slide7.png
+        alt:
+        # you can enforce the alignment
+#        align: right
+      - title: "Blinky-Lite mobility"
+#        year: "2009-2011"
+        desc: "Most other control platforms sit behind a firewall and remote access is an afterthought. Not with us. Secure remote access was the paramount requirement from the start. All our applications are web apps that can be securely accessed from anywhere in the world. Web apps require no installation and you are always guaranteed to get the latest version."
+        image: assets/img/timeline/slide8.png
+        alt:
+        # you can enforce the alignment
+#        align: right
+      - title: "Blinky-Lite security"
+#        year: "2009-2011"
+        desc: "Our machine connections are always initiated from within your facility - not from the outside - providing secure information flow from you to the machine/sensor and back. All our mobile apps require two factor authentication, ensuring that only the right people have access."
+        image: assets/img/timeline/slide9.png
+        alt:
+        # you can enforce the alignment
+#        align: right
+      - title: "Blinky-Lite flexibility"
+#        year: "2009-2011"
+        desc: "You spent a lot of money on automating your plant. You don’t have to start over Blinky-Lite can be added independently or on top of any existing control system. It is full stack from the beginning. It comes with all the necessary features that makes it extremely easy to use. Blinky-Lite can integrate with many different communication protocols from Modbus to SCPI to S7 over many different types of communication technologies from WLAN, 5G or LoRa"
+        image: assets/img/timeline/slide10.png
+        alt:
+        # you can enforce the alignment
+#        align: right
+      - title: "Blinky-Lite services"
+#        year: "2009-2011"
+        desc: "Most other control platforms only offer a communication protocol, but Blinky-LiteTM out of the box provides: Alarm Scanning, SMS Alarm messaging, Data Logging, Access Logging, Settings Logging, Application role based access, Data stream role based access, Zero-code application builder, Device-side restricted messaging, Scalar plotting, Vector plotting, User customized app launcher, User customized device viewers, Two factor authentication"
+        image: assets/img/timeline/slide11.png
+        alt:
+        # you can enforce the alignment
+#        align: right
+      - title: "Blinky-Lite open-source code"
+#        year: "2009-2011"
+        desc: "Every single line of the Blinky-Lite codebase is version-controlled and open to you. No license fees. No proprietary software. Blinky-Lite can be with you forever and can grow with your facility, with or without us."
+        image: assets/img/timeline/slide12.png
+        alt:
+        # you can enforce the alignment
+#        align: right
+    end: "<a href='https://blinky-lite.github.io/' target='_blank' style='color:#083357;'>Blinky-Lite<sup>TM</sup> docs.</a>"
+
+  about:
+    title: "About Us"
+#    text: "our story"
+    body: "We have a combined experience of 45 years building particle accelerators. Downtime for these ultra complex machines can cost users hundreds of thousands of euros per day. So, we developed a radically new concept for remote access controls for the premiere accelerator facilities in Sweden. This system gives experts access to the machines around the clock from anywhere in the world so they can spot issues before they become problems and fix problems before they become downtime. We know that downtime is not only a killer for big science but for the manufacturing sector as well. So, we have spun-off the same technology we use for maintaining top performance at particle accelerators. The result is Blinky-Lite, a secure remote access control system that easily integrates into the manufacturing sector."
+    section: about
+
+  team:
+    title: "The Team"
+#    text: ""
+#    subtext: ""
+    section: team
+    people:
+      - name: "Georg Hulla"
+        role: "CEO"
+        image: assets/img/team/hulla.jpg
+        social:
+          - url: https://www.linkedin.com/in/georg-hulla/
+            icon: fab fa-linkedin-in
+      - name: "David McGinnis"
+        role: "CTO"
+        image: assets/img/team/mcginnis2.png
+        social:
+          - url: https://www.linkedin.com/in/david-mcginnis-448b9a260/
+            icon: fab fa-linkedin-in
+          - url: https://www.scandidavia.com/
+            icon: fas fa-home
+
+  contact:
+    title: "Contact Us"
+    text: ""
+    section: contact
+    name: "Name*"
+    name-validation: "Please enter your name."
+    email: "Email*"
+    email-validation: "Please enter your email address."
+    phone: "Phone Number"
+    phone-validation: "Please enter your phone number."
+    message: "Message*"
+    message-validation: "Please enter a message."
+    subject: "Contact Form Submission"
+    submit: "Send Message"
+
+  footer:
+    legal: "Privacy Policy"
+    social:
+      - url: https://www.linkedin.com/company/bl-mc/
+        icon: "fab fa-linkedin-in"
+      - url: https://github.com/Blinky-Lite
+        icon: "fab fa-github"
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
+
