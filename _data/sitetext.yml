@@ -37,7 +37,7 @@ en: &DEFAULT_EN
     closebutton: "Close"
 
   timeline:
-    title: "Secure Remote Access Controls!!??"
+    title: "Secure Remote Access Controls"
     text: "A proactive approach to troubleshooting using secure remote access could drastically increase meantime between failures (MTBF) while reducing the mean time to repair (MTTR) which both contribute to increasing your plant availability and to your bottom line."
     section: timeline
     # left is the default
