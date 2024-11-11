@@ -1,188 +1,154 @@
-# Agency Jekyll Theme
-[![RubyGems Downloads](https://img.shields.io/gem/dt/jekyll-agency?label=gem%20downloads)](https://rubygems.org/gems/jekyll-agency)
-[![LICENSE](https://img.shields.io/badge/license-MIT-blue)](/LICENSE.txt)
-[![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip_me-green?logo=paypal)](https://www.paypal.me/raviriley)
-[![template button](https://img.shields.io/badge/Generate_theme_from_template-2ea44f)][generate]
-[![Featured on Jekyll-Themes.com](https://img.shields.io/badge/featured%20on-JekyllThemes-red.svg)](https://jekyll-themes.com/agency-jekyll-theme/)
+# [Start Bootstrap - Clean Blog Jekyll](https://startbootstrap.com/themes/clean-blog-jekyll/) - Official Jekyll Version
 
-## Preview - click for live demo
+[Clean Blog Jekyll](https://startbootstrap.com/themes/clean-blog-jekyll/) is a stylish, responsive blog theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features a blog homepage, about page, contact page, and an example post page along with a working contact form powered by [Formspree](https://formspree.io/).
 
-[![screenshot](/screenshot.PNG)][demo-page]
+This repository holds the official Jekyll version of the Clean Blog theme on Start Bootstrap!
 
-## Warning
+## Preview
 
-> :warning: **Notice for those using legacy Formspree contact forms:** :warning:
->
-> Email-based forms are being [phased out](https://help.formspree.io/hc/en-us/articles/360056076314) by Formspree. [#11](https://github.com/raviriley/agency-jekyll-theme/pull/11) updated this theme to use the [new Formspree structure](https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam). Click [here](https://help.formspree.io/hc/en-us/articles/360056076314) for instructions on updating your site's form.
+[![Clean Blog (Jekyll) Preview](https://startbootstrap.com/assets/img/screenshots/themes/clean-blog-jekyll.png)](http://StartBootstrap.github.io/startbootstrap-clean-blog-jekyll/)
+
+**[View Live Preview](http://StartBootstrap.github.io/startbootstrap-clean-blog-jekyll/)**
+
+## Installation & Setup
+
+### Using RubyGems
+
+When installing the theme using RubyGems, demo images, posts, and pages are not included. Follow the instructions below for complete setup.
+
+1. (Optional) Create a new Jekyll site: `jekyll new my-site`
+2. Replace the current theme in your `Gemfile` with `gem "jekyll-theme-clean-blog"`.
+3. Install the theme (run the command inside your site directory): `bundle install`
+4. Replace the current theme in your `_config.yml` file with `theme: jekyll-theme-clean-blog`.
+5. Build your site: `bundle exec jekyll serve`
+
+Assuming there are no errors and the site is building properly, follow these steps next:
+
+1. Create the following pages if they do not exist already (or change the extension of existing markdown files from `.md` to `.html`):
+
+   * `index.html` - set to `layout: home`
+   * `about.html` - set to `layout: page`
+   * `contact.html` - set to `layout: page`
+   * `posts/index.html` - set to `layout: page` (you will also need to create a `posts` directory)
+
+2. Configure the `index.html` front matter. Example:
+
+    ```markdown
+    ---
+    layout: home
+    background: '/PATH_TO_IMAGE'
+    ---
+    ```
+
+3. Configure the `about.html`, `contact.html`, and `posts/index.html` front matter. Example:
+
+    ```markdown
+    ---
+    layout: page
+    title: Page Title
+    description: This is the page description.
+    background: '/PATH_TO_IMAGE'
+    ---
+    ```
+
+4. For each post in the `_posts` directory, update the front matter. Example:
+
+    ```markdown
+    ---
+    layout: post
+    title: "Post Title"
+    subtitle: "This is the post subtitle."
+    date: YYYY-MM-DD HH:MM:SS
+    background: '/PATH_TO_IMAGE'
+    ---
+    ```
+
+    For reference, look at the [demo repository](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll) to see how the files are set up.
+
+5. Add the form to the `contact.html` page. Add the following code to your `contact.html` page:
+
+    ```html
+    <form name="sentMessage" id="contactForm" novalidate>
+      <div class="control-group">
+        <div class="form-group floating-label-form-group controls">
+          <label>Name</label>
+          <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+          <p class="help-block text-danger"></p>
+        </div>
+      </div>
+      <div class="control-group">
+        <div class="form-group floating-label-form-group controls">
+          <label>Email Address</label>
+          <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+          <p class="help-block text-danger"></p>
+        </div>
+      </div>
+      <div class="control-group">
+        <div class="form-group col-xs-12 floating-label-form-group controls">
+          <label>Phone Number</label>
+          <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+          <p class="help-block text-danger"></p>
+        </div>
+      </div>
+      <div class="control-group">
+        <div class="form-group floating-label-form-group controls">
+          <label>Message</label>
+          <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+          <p class="help-block text-danger"></p>
+        </div>
+      </div>
+      <br>
+      <div id="success"></div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary" id="sendMessageButton">Send</button>
+      </div>
+    </form>
+    ```
+
+    Make sure you have the `email` setting in your `_config.yml` file set to a working email address! Once this is set, fill out the form and then check your email, verify the email address using the link sent to you by Formspree, and then the form will be working!
+
+6. Build your site: `bundle exec jekyll serve`
+
+### Using Core Files
+
+When using the core files, the demo images, posts, and pages are all included with the download. After following the instructions below, you can then go and change the content of the pages and posts.
+
+1. [Download](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll/archive/master.zip) or Clone the repository.
+2. Update the following configuration settings in your `_config.yml` file:
+
+    * `baseurl`
+    * `url`
+    * `title`
+    * `email` (after setting this setting to a working email address, fill out the form on the contact page and send it - then check your email and verify the address and the form will send you messages when used)
+    * `description`
+    * `author`
+    * `twitter_username` (Optional)
+    * `facebook_username` (Optional)
+    * `github_username` (Optional)
+    * `linkedin_username` (Optional)
+    * `instagram_username` (Optional)
+
+3. Build your site: `bundle exec jekyll serve`
+
+## Bugs and Issues
+
+Have a bug or an issue with this template? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll/issues) here on GitHub!
 
 ## About
 
-This is the [Agency Bootstrap theme](https://startbootstrap.com/themes/agency/), converted to a gem-based Jekyll theme with GitHub Pages support.
+Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
 
-While this has been done before, [here](https://github.com/y7kim/agency-jekyll-theme), [here](https://github.com/SotiriosVrachas/jekyll-theme-startbootstrap-agency), and [here](https://github.com/laklau/agency-jekyll-theme/), these are outdated and have not been updated or maintained for years. I built this theme from the most recent Bootstrap source.
+* <https://startbootstrap.com>
+* <https://twitter.com/SBootstrap>
 
-I also added a lot of new features that go beyond the original theme's capabilities:
+Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**.
 
-- GitHub Pages support
-- [template repo][template] to get up and running in minutes
-- contact form functionality powered by [Formspree.io](https://formspree.io)
-- multiple language support (currently English, Spanish, & German)
-- custom pages
-- 404 page
-- legal/Privacy Policy page
-- Google Analytics support
-- Markdown support
-- custom images
-- logo support (instead of just title text)
-- automatically updating copyright years
-- custom navigation bar, even without the header image(s)
-- customizable footer
-- custom accent color and dark/light colors
-- horizontal scrolling support for client section
-<!--
-- custom colors with automatic gradient generation (coming soon)
-- site title logo text font customization (coming soon)
-- horizontal scrolling support for portfolio section (coming soon)
-- about section (different from the timeline) -->
+* <http://davidmiller.io>
+* <https://twitter.com/davidmillerhere>
+* <https://github.com/davidtmiller>
 
-The Jekyll structure of this theme includes:
+Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
-- `_portfolio` files - what generate the portfolio grid. YAML front matter handles all the details
-- the `page` layout allows custom pages, as seen in the legal and 404 pages
-- `sitetext.yml` enables complete customization of all site text
-- `navigation.yml` enables fully customizable navigation
-- `style.yml` enables fully customizable colors, background images, and other style-related things
+## Copyright and License
 
-**If you enjoy this theme, please consider [supporting me](https://www.paypal.me/raviriley) to continue developing and maintaining it.**
-
-<div align="center">
-
-[![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/raviriley)
-
-</div>
-
-## Installation
-
-There are three ways to install this theme:
-
-1. As a gem-based theme
-2. Use the [starter template][template] (best for GitHub Pages)
-3. As a remote theme
-
-#### 1. Gem-based Theme Installation
-
-Replace the contents of your `_config.yml` file with the sample [\_config.yml](https://raw.githubusercontent.com/raviriley/agency-jekyll-theme/master/_config.yml).
-
-Install the gem with:
-
-```sh
-$ bundle add jekyll-agency
-```
-
-Or manually.
-
-1. Add this line to your Jekyll site's `Gemfile`:
-   ```ruby
-   gem "jekyll-agency"
-   ```
-2. Then execute:
-   ```sh
-   $ bundle install
-   ```
-
-#### 2. Using the [Starter Template][template]
-
-This is the fastest and easiest way to get up and running on GitHub Pages.
-
-Simply generate your own repository by clicking the button below. Then replace the sample content with your own and configure for your needs.
-
-<div align="center">
-
-[![Use this template](https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge)][generate]
-
-</div>
-    
-#### 3. Remote Theme Installation
-
-Replace your `_config.yml` file with the starter [\_config.yml](https://raw.githubusercontent.com/raviriley/agency-jekyll-theme-starter/master/_config.yml).
-
-Replace your `Gemfile` with the starter [Gemfile](https://raw.githubusercontent.com/raviriley/agency-jekyll-theme-starter/master/Gemfile).
-
-Then install gems.
-
-```sh
-$ bundle install
-```
-
-<!--
-## Documentation and Usage
-
-**TODO:** Write usage instructions here. Describe available layouts, includes, or assets.
-
-navheader is used only for the home page. nav is used everywhere else.
-
-Layouts:
-
-Includes:
-
--->
-
-## Contributing
-
-This project is intended to be a welcoming space for collaboration. If you have an idea, suggestion, feature request, etc., feel free to open an issue or pull request.
-
-For bug reports, follow the provided template.
-
-#### Improvements - Up for Grabs
-
-- [x] multiple language support thanks to [@rbenitezpagan](https://github.com/rbenitezpagan)
-  - [x] Spanish thanks to [@rbenitezpagan](https://github.com/rbenitezpagan)
-  - [x] German thanks to [@bkfirmen](https://github.com/bkfirmen)
-  - [ ] Chinese
-  - [ ] Arabic
-  - [ ] etc
-- [ ] customizable background coloring for each section
-
-## Development
-
-To set up your environment to develop this theme, clone this repo or your fork.
-
-```sh
-$ git clone https://github.com/raviriley/agency-jekyll-theme.git
-$ cd agency-jekyll-theme
-```
-
-Then run:
-
-```sh
-$ bundle install
-```
-
-To test the theme, run this. (Using the `--trace` flag for verbose errors.)
-
-```sh
-$ bundle exec jekyll serve --trace
-```
-
-Then open your browser at:
-
-- http://localhost:4000
-
-Add pages, documents, data, etc. like normal to test the theme's contents. As you make modifications, your site will regenerate and you should see the changes in the browser after a refresh.
-
-## License
-
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
-<!--
-
-## Example Implementations
-
-- [CV Enterprises](https://cventerprises.org)
-- [Mortazavi Lab at UC Irvine](https://mortazavilab.github.io/)
-
--->
-
-[demo-page]: https://raviriley.github.io/agency-jekyll-theme-starter/
-[template]: https://github.com/raviriley/agency-jekyll-theme-starter
-[generate]: https://github.com/raviriley/agency-jekyll-theme-starter/generate
+Copyright 2013-2021 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll/blob/master/LICENSE) license.

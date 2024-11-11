@@ -1,27 +1,25 @@
+title:              BL-MC
+email:              info@bl-mc.se
+description:        Accelerating the commercialization of compact particle accelerators through fully integrated, ready to go subsystems
+author:             Georg Hulla
+baseurl:            "/"
+url:                "https://startbootstrap.github.io"
 
-theme: jekyll-agency
+# Social Profiles
+twitter_username:   
+github_username:    Blinky-Lite
+facebook_username:  
+instagram_username:  
+linkedin_username:  bl-mc
 
-url    : "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
 
-title      : BL Monitor and Control
-email      : david.mcginnis@bl-mc.se #this is also the email contact forms will go to
-description: "BL Monitor and Control"
-author     : David McGinnis
-logo:     #optional, defaults to site title
-  path: assets/img/clients/blmc-logo.png
-  height: 60 #height in px, defaults to 52px
-
-locale: "en-US" # See available languages in _data/sitetext.yml
-
-analytics:
-  google: #Google Analytics tracking code here
-
-collections:
-  portfolio:
-
-markdown: kramdown
-
-# Uncomment following line to use Formspree form ID based URL instead of email based URL
-# Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam
-formspree_form_path: "f/mknavpnr"
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site

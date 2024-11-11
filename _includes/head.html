@@ -1,58 +1,22 @@
 <head>
-  {% if site.analytics.google %}
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google }}"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
-
-    gtag("config", "{{ site.analytics.google }}");
-  </script>
-  <!-- End Google Analytics -->
-  {% endif %}
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="{{ site.description }}">
-  <meta name="author" content="{{ site.author }}">
 
-  <meta property='og:title' content='BL Monitor and Control'/>
-  <meta property='og:image' content='https://www.bl-mc.se/assets/img/frontpage.png'/>
-  <meta property='og:description' content='Secure Remote Access Control Platforms'/>
-  <meta property='og:url' content='https://www.bl-mc.se/'/>
+  <title>
+    {% if page.title %}{{ page.title | escape }} - {{ site.title | escape }}
+    {% else %}{{ site.title | escape }}{% endif %}
+  </title>
 
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
-  <title>{% if page.title %}{{ page.title | append: " | " | append: site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
-  <!-- Bootstrap core CSS -->
-  <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
 
-  <!-- Custom fonts for this template -->
-  <link href="assets/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="{{"/assets/main.css" | relative_url }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
 
-  <!-- Custom styles for this theme -->
-  <!--<link href="assets/css/agency.min.css" rel="stylesheet">-->
-  <link href="assets/css/agency.css" rel="stylesheet" />
-  <link rel="shortcut icon" type="image/png" href="favicon.png">
-  <!-- Page container change top padding when nav shrinks -->
-  {% if page.layout == "page" %}
-  <style>
-    #pagecontainer {
-      padding-top: 150px;
-    }
-    @media only screen and (max-width: 991px) {
-      #pagecontainer {
-        padding-top: 100px;
-      }
-    }
-  </style>
-  {% endif %}
 </head>
