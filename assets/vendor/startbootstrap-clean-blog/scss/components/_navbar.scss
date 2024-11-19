@@ -6,7 +6,7 @@
     font-family: $headings-font-family;
 
     .navbar-brand {
-        font-weight: 800;
+        font-weight: 900;
         color: $gray-800;
     }
 
@@ -21,7 +21,7 @@
     .navbar-nav {
         >li.nav-item {
             >a {
-                font-size: 12px;
+                font-size: 15px;
                 font-weight: 800;
                 letter-spacing: 1px;
                 text-transform: uppercase;
