@@ -1,194 +1,79 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://bl-mc.se/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bl-mc.se/" rel="alternate" type="text/html" /><updated>2024-11-19T22:24:21+01:00</updated><id>https://bl-mc.se/feed.xml</id><title type="html">BL Monitor &amp;amp; Control</title><subtitle>Accelerating the commercialization of compact particle accelerators through fully integrated, ready to go subsystems</subtitle><author><name>Georg Hulla</name></author><entry><title type="html">Over 700 meters of Blinky-Leak system operational at the Max-IV Light Source</title><link href="https://bl-mc.se/2024/11/10/maxiv-leak-incident.html" rel="alternate" type="text/html" title="Over 700 meters of Blinky-Leak system operational at the Max-IV Light Source" /><published>2024-11-10T15:45:13+01:00</published><updated>2024-11-10T15:45:13+01:00</updated><id>https://bl-mc.se/2024/11/10/maxiv-leak-incident</id><content type="html" xml:base="https://bl-mc.se/2024/11/10/maxiv-leak-incident.html"><![CDATA[<p>During the 2023-2024 Winter shutdown over 700 meters of Blinky-Leak detector was made operational in the MaxIV computer server rooms and the 520 meter 3 GeV Ring. Fourteen wireless Blinky-Leak cubes that could read two 20 meter long detectors comprise the system. The complete system is operational and connected to the MaxIV notification system.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://bl-mc.se/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bl-mc.se/" rel="alternate" type="text/html" /><updated>2024-11-20T22:14:11+01:00</updated><id>https://bl-mc.se/feed.xml</id><title type="html">BL Monitor &amp;amp; Control</title><subtitle>Accelerating the commercialization of compact particle accelerators through fully integrated, ready to go subsystems</subtitle><author><name>Georg Hulla</name></author><entry><title type="html">Compact Mode 0 beam stabilization system</title><link href="https://bl-mc.se/2024/11/17/mode0-beam-stabilization-system.html" rel="alternate" type="text/html" title="Compact Mode 0 beam stabilization system" /><published>2024-11-17T15:45:13+01:00</published><updated>2024-11-17T15:45:13+01:00</updated><id>https://bl-mc.se/2024/11/17/mode0-beam-stabilization-system</id><content type="html" xml:base="https://bl-mc.se/2024/11/17/mode0-beam-stabilization-system.html"><![CDATA[<p><b><i>Place of installation:</i></b> <a href="https://www.maxiv.lu.se/">MAX IV</a> laboratory in Lund/Sweden</p>
 
-<p>On Friday 5-July 2024, the Blinky-Lite water leak detector system at MaxIV sent out a notification that there was a leak in Sector 14. At first the leak subsided but then returned and grew steadily worse over the weekend. Since there was no staff available on the MaxIV site during the weekend, repair crews could not investigate until the following Monday. On Monday 8-July, the repair crew found a cooling hose leaking in Sector 14 and promptly repaired it.</p>
+<p><b><i>Background:</i></b> Many of the latest generation light sources are transitioning to long bunch operation to dramatically improve beam brightness. However, most particle accelerator bunch lengthening systems inherently introduce instabilities that can severely impact beam brightness.</p>
 
-<p>Since water leaks rarely get better by themselves and often can become catastrophically worse, the prompt notification to remote observers by the Blinky-Lite water leak detector system during a vacation period when few staff were present probably saved MaxIV from a costly repair and cleanup.</p>
+<p><b><i>Implementation:</i></b> A compact Mode 0 beam stabilization system based on incorporating the Red Pitaya Stemlab 125-14LN into the Blinky-Lite platform has been commissioned at MAX IV. The system enables long bunch operation at high beam intensities with record beam brightness.</p>
+
+<p></p>
+
+<img class="img-fluid" src="/img/posts/2024-11-17/Mode0_first.jpg" alt="Demo Image">
+<span class="caption text-muted">First version of the Mode 0 beam stabilization system at the heart of MAX IV, doubling its beam brightness.</span>
+
+<p></p>
+
+<img class="img-fluid" src="/img/posts/2024-11-17/Mode0_advanced.jpg" alt="Demo Image">
+<span class="caption text-muted">Advanced version - FPGA code, hardware and user applications.</span>
+
+<p><b><i>Benefit:</i></b> In long bunch mode, which is needed for a bright beam, MAX IV was previously limited to under 125mA but thanks to the beam stabilization system is now operating at 400 mA. The Red Pitaya Mode 0 system has been operating for over a year without causing any down-time to the accelerator.</p>
+
+<p><b><i>Our offering:</i></b>  The compact Mode 0 beam stabilization system can be easily integrated in almost any other light source.</p>]]></content><author><name>Georg Hulla</name></author><summary type="html"><![CDATA[Place of installation: MAX IV laboratory in Lund/Sweden]]></summary></entry><entry><title type="html">Wireless leak detection system</title><link href="https://bl-mc.se/2024/11/10/wireless-leak-detection-system.html" rel="alternate" type="text/html" title="Wireless leak detection system" /><published>2024-11-10T15:45:13+01:00</published><updated>2024-11-10T15:45:13+01:00</updated><id>https://bl-mc.se/2024/11/10/wireless-leak-detection-system</id><content type="html" xml:base="https://bl-mc.se/2024/11/10/wireless-leak-detection-system.html"><![CDATA[<p><b><i>Place of installation:</i></b> <a href="https://www.maxiv.lu.se/">MAX IV</a> laboratory in Lund/Sweden</p>
+
+<p><b><i>Background:</i></b> Water leaks pose significant risks to particle accelerators because they can cause electrical short circuits, damage sensitive equipment, contaminate vacuum systems, and disrupt thermal regulation. Leaks may also spread radioactive material from activated components, complicating cleanup and increasing personal hazards. Such incidents lead to costly repairs, facility downtime, and safety risks to personnel. Preventive measures like leak detection systems are crucial to safeguard the reliability of such facilities.</p>
+
+<p>For preventive measures, the MAX IV computer server rooms as well as the 520 meter synchrotron ring had to be equipped with leak detectors. The <i>challenge</i> was to do this with the least possible impact to the already existing facility infrastructure (i.e. avoiding to pull new control cables).</p>
+
+<p><b><i>Implementation:</i></b> Fourteen wireless Blinky-Leak boxes, each of them able to read two 20 meter long sectors, comprise the system. The complete system was installed by one person in less than 3 weeks and is operational and connected to the MAX IV notification system since fall 2023 (see live <a href="https://bl-maxiv.se/myapps?external">system</a>).</p>
+
+<p></p>
+
+<img class="img-fluid" src="/img/posts/2024-11-10/Sensor_electronics.jpg" alt="Demo Image">
+<span class="caption text-muted">Blinky-Leak boxes electronics design.</span>
+
+<p></p>
+
+<img class="img-fluid" src="/img/posts/2024-11-10/Sensor_installation.jpg" alt="Demo Image">
+<span class="caption text-muted">Leak detector installation at MAX IV.</span>
+
+<p></p>
+
+<img class="img-fluid" src="/img/posts/2024-11-10/User_app.jpg" alt="Demo Image">
+<span class="caption text-muted">Leak detector mobile user applications and alarm screens.</span>
+
+<p><b><i>Benefit:</i></b> Proactive leak prevention at MAX IV.</p>
+
+<p>Example: On Friday 5-July 2024, the Blinky-Lite water leak detector system at MAX IV sent out a notification that there was a leak in Sector 14. On Monday 8-July, the repair crew found a cooling hose leaking in Sector 14 and promptly repaired it.</p>
 
 <img class="img-fluid" src="/img/posts/2024-11-10/R3LeakDetection2024_07.jpg" alt="Demo Image">
-<span class="caption text-muted">Leak detection system detecting leak at MaxIV. Alarm screen and user app.</span>]]></content><author><name>Georg Hulla</name></author><summary type="html"><![CDATA[During the 2023-2024 Winter shutdown over 700 meters of Blinky-Leak detector was made operational in the MaxIV computer server rooms and the 520 meter 3 GeV Ring. Fourteen wireless Blinky-Leak cubes that could read two 20 meter long detectors comprise the system. The complete system is operational and connected to the MaxIV notification system.]]></summary></entry><entry><title type="html">Man must explore, and this is exploration at its greatest</title><link href="https://bl-mc.se/2020/01/31/man-must-explore-copy.html" rel="alternate" type="text/html" title="Man must explore, and this is exploration at its greatest" /><published>2020-01-31T15:45:13+01:00</published><updated>2020-01-31T15:45:13+01:00</updated><id>https://bl-mc.se/2020/01/31/man-must-explore%20copy</id><content type="html" xml:base="https://bl-mc.se/2020/01/31/man-must-explore-copy.html"><![CDATA[<p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
+<span class="caption text-muted">Leak detection system detecting leak at MAX IV. Alarm screen and user app.</span>
 
-<p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>
+<p><b><i>Our offering:</i></b> A wireless leak detection systems, that</p>
+<li>can determine leak locations to within a few meters or less</li>
+<li>notifies users of water leaks</li>
+<li>alarms users on detector fault and communication failure</li>]]></content><author><name>Georg Hulla</name></author><summary type="html"><![CDATA[Place of installation: MAX IV laboratory in Lund/Sweden]]></summary></entry><entry><title type="html">Complete RFQ control system</title><link href="https://bl-mc.se/2024/11/03/rfq-control-system.html" rel="alternate" type="text/html" title="Complete RFQ control system" /><published>2024-11-03T15:45:13+01:00</published><updated>2024-11-03T15:45:13+01:00</updated><id>https://bl-mc.se/2024/11/03/rfq-control-system</id><content type="html" xml:base="https://bl-mc.se/2024/11/03/rfq-control-system.html"><![CDATA[<p><b><i>Place of installation:</i></b> <a href="https://mirrotron.com/en">Mirrotron</a> laboratory in Martonvásár/Hungary</p>
 
-<p>What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.</p>
+<p><b><i>Background:</i></b> The Mirrotron Radio Frequency Quadrupole (RFQ) is part of a compact neutron source that is being built in Martonvásár Hungary.</p>
 
-<p>A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.</p>
+<p>The 2.5 MeV RFQ designed and built by Time Co, Ltd., Japan is a pulsed accelerator that can support 1.25 mS pulses at a rate of 40 Hz for a maximum duty factor of 5% . The RFQ can accelerate a peak beam current of 20 mA with an input RF power 260 kW at 200 MHz. providing an average beam power of 2.5 kW. The loaded cavity Q is 10,000 which results in a cavity bandwidth of 20 kHz.</p>
 
-<p>For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.</p>
+<p>The RFQ accelerator system can be divided into 5 major subsystems</p>
+<li>RF source (LLRF)</li>
+<li>Timing system</li>
+<li>200 MHz RF power amplifier</li>
+<li>Vacuum system</li>
+<li>Cooling system</li>
 
-<h2 class="section-heading">The Final Frontier</h2>
+<p><b><i>Implementation:</i></b> (a more detailed description of the control system can be found <a href="https://bl-mirrotron.github.io/">here</a>).</p>
 
-<p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
+<p></p>
 
-<p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
+<img class="img-fluid" src="/img/posts/2024-11-03/Mode0_first.jpg" alt="Demo Image">
+<span class="caption text-muted">Capture</span>
 
-<blockquote class="blockquote">The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
+<p></p>
 
-<p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
+<img class="img-fluid" src="/img/posts/2024-11-03/Mode0_advanced.jpg" alt="Demo Image">
+<span class="caption text-muted">Capture</span>
 
-<h2 class="section-heading">Reaching for the Stars</h2>
+<p><b><i>Benefit:</i></b> </p>
 
-<p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
-
-<img class="img-fluid" src="https://source.unsplash.com/Mn9Fa_wQH-M/800x450" alt="Demo Image">
-<span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
-
-<p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
-
-<p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.</p>
-
-<p>Placeholder text by <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by <a href="https://unsplash.com/">Unsplash</a>.</p>]]></content><author><name>Georg Hulla</name></author><summary type="html"><![CDATA[Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.]]></summary></entry><entry><title type="html">I believe every human has a finite number of heartbeats. I don’t intend to waste any of mine.</title><link href="https://bl-mc.se/2020/01/31/heartbeats.html" rel="alternate" type="text/html" title="I believe every human has a finite number of heartbeats. I don’t intend to waste any of mine." /><published>2020-01-31T04:45:13+01:00</published><updated>2020-01-31T04:45:13+01:00</updated><id>https://bl-mc.se/2020/01/31/heartbeats</id><content type="html" xml:base="https://bl-mc.se/2020/01/31/heartbeats.html"><![CDATA[<p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
-
-<p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>
-
-<p>What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.</p>
-
-<p>A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.</p>
-
-<p>For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.</p>
-
-<h2 class="section-heading">The Final Frontier</h2>
-
-<p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
-
-<p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
-
-<blockquote class="blockquote">The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
-
-<p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
-
-<h2 class="section-heading">Reaching for the Stars</h2>
-
-<p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
-
-<img class="img-fluid" src="https://source.unsplash.com/Mn9Fa_wQH-M/800x450" alt="Demo Image">
-<span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
-
-<p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
-
-<p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.</p>
-
-<p>Placeholder text by <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by <a href="https://unsplash.com/">Unsplash</a>.</p>]]></content><author><name>Georg Hulla</name></author><summary type="html"><![CDATA[Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.]]></summary></entry><entry><title type="html">Science has not yet mastered prophecy</title><link href="https://bl-mc.se/2020/01/30/prophecy.html" rel="alternate" type="text/html" title="Science has not yet mastered prophecy" /><published>2020-01-30T04:45:13+01:00</published><updated>2020-01-30T04:45:13+01:00</updated><id>https://bl-mc.se/2020/01/30/prophecy</id><content type="html" xml:base="https://bl-mc.se/2020/01/30/prophecy.html"><![CDATA[<p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
-
-<p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>
-
-<p>What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.</p>
-
-<p>A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.</p>
-
-<p>For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.</p>
-
-<h2 class="section-heading">The Final Frontier</h2>
-
-<p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
-
-<p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
-
-<blockquote class="blockquote">The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
-
-<p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
-
-<h2 class="section-heading">Reaching for the Stars</h2>
-
-<p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
-
-<img class="img-fluid" src="https://source.unsplash.com/Mn9Fa_wQH-M/800x450" alt="Demo Image">
-<span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
-
-<p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
-
-<p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.</p>
-
-<p>Placeholder text by <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by <a href="https://unsplash.com/">Unsplash</a>.</p>]]></content><author><name>Georg Hulla</name></author><summary type="html"><![CDATA[Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.]]></summary></entry><entry><title type="html">Failure is not an option</title><link href="https://bl-mc.se/2020/01/29/exploration.html" rel="alternate" type="text/html" title="Failure is not an option" /><published>2020-01-29T04:45:13+01:00</published><updated>2020-01-29T04:45:13+01:00</updated><id>https://bl-mc.se/2020/01/29/exploration</id><content type="html" xml:base="https://bl-mc.se/2020/01/29/exploration.html"><![CDATA[<p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
-
-<p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>
-
-<p>What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.</p>
-
-<p>A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.</p>
-
-<p>For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.</p>
-
-<h2 class="section-heading">The Final Frontier</h2>
-
-<p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
-
-<p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
-
-<blockquote class="blockquote">The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
-
-<p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
-
-<h2 class="section-heading">Reaching for the Stars</h2>
-
-<p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
-
-<img class="img-fluid" src="https://source.unsplash.com/Mn9Fa_wQH-M/800x450" alt="Demo Image">
-<span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
-
-<p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
-
-<p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.</p>
-
-<p>Placeholder text by <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by <a href="https://unsplash.com/">Unsplash</a>.</p>]]></content><author><name>Georg Hulla</name></author><summary type="html"><![CDATA[Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.]]></summary></entry><entry><title type="html">The dreams of yesterday are the hopes of today and the reality of tomorrow.</title><link href="https://bl-mc.se/2020/01/28/dreams.html" rel="alternate" type="text/html" title="The dreams of yesterday are the hopes of today and the reality of tomorrow." /><published>2020-01-28T04:45:13+01:00</published><updated>2020-01-28T04:45:13+01:00</updated><id>https://bl-mc.se/2020/01/28/dreams</id><content type="html" xml:base="https://bl-mc.se/2020/01/28/dreams.html"><![CDATA[<p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
-
-<p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>
-
-<p>What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.</p>
-
-<p>A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.</p>
-
-<p>For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.</p>
-
-<h2 class="section-heading">The Final Frontier</h2>
-
-<p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
-
-<p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
-
-<blockquote class="blockquote">The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
-
-<p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
-
-<h2 class="section-heading">Reaching for the Stars</h2>
-
-<p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
-
-<img class="img-fluid" src="https://source.unsplash.com/Mn9Fa_wQH-M/800x450" alt="Demo Image">
-<span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
-
-<p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
-
-<p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.</p>
-
-<p>Placeholder text by <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by <a href="https://unsplash.com/">Unsplash</a>.</p>]]></content><author><name>Georg Hulla</name></author><summary type="html"><![CDATA[Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.]]></summary></entry><entry><title type="html">Dinosaurs are extinct today</title><link href="https://bl-mc.se/2020/01/27/dinosaurs.html" rel="alternate" type="text/html" title="Dinosaurs are extinct today" /><published>2020-01-27T04:45:13+01:00</published><updated>2020-01-27T04:45:13+01:00</updated><id>https://bl-mc.se/2020/01/27/dinosaurs</id><content type="html" xml:base="https://bl-mc.se/2020/01/27/dinosaurs.html"><![CDATA[<p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
-
-<p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>
-
-<p>What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.</p>
-
-<p>A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.</p>
-
-<p>For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.</p>
-
-<h2 class="section-heading">The Final Frontier</h2>
-
-<p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
-
-<p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
-
-<blockquote class="blockquote">The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
-
-<p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
-
-<h2 class="section-heading">Reaching for the Stars</h2>
-
-<p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
-
-<img class="img-fluid" src="https://source.unsplash.com/Mn9Fa_wQH-M/800x450" alt="Demo Image">
-<span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
-
-<p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
-
-<p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.</p>
-
-<p>Placeholder text by <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by <a href="https://unsplash.com/">Unsplash</a>.</p>]]></content><author><name>Georg Hulla</name></author><summary type="html"><![CDATA[Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.]]></summary></entry></feed>
+<p><b><i>Our offering:</i></b> A complete RFQ control system consisting of the above mentioned subsystems.</p>]]></content><author><name>Georg Hulla</name></author><summary type="html"><![CDATA[Place of installation: Mirrotron laboratory in Martonvásár/Hungary]]></summary></entry></feed>
