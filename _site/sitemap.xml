@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>https://bl-mc.se/2024/09/29/cryogenic-temperature-probe-controller.html</loc>
+<lastmod>2024-09-29T16:45:13+02:00</lastmod>
+</url>
+<url>
+<loc>https://bl-mc.se/2024/10/06/small-footprint-control-system.html</loc>
+<lastmod>2024-10-06T16:45:13+02:00</lastmod>
+</url>
+<url>
+<loc>https://bl-mc.se/2024/10/13/laser-spot-controller.html</loc>
+<lastmod>2024-10-13T16:45:13+02:00</lastmod>
+</url>
+<url>
+<loc>https://bl-mc.se/2024/10/20/man-down-system.html</loc>
+<lastmod>2024-10-20T16:45:13+02:00</lastmod>
+</url>
+<url>
+<loc>https://bl-mc.se/2024/10/27/instrumentation-suite.html</loc>
+<lastmod>2024-10-27T15:45:13+01:00</lastmod>
+</url>
+<url>
 <loc>https://bl-mc.se/2024/11/03/rfq-control-system.html</loc>
 <lastmod>2024-11-03T15:45:13+01:00</lastmod>
 </url>
@@ -23,5 +43,8 @@
 </url>
 <url>
 <loc>https://bl-mc.se/</loc>
+</url>
+<url>
+<loc>https://bl-mc.se/posts/page2/</loc>
 </url>
 </urlset>
