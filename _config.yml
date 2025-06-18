@@ -1,13 +1,13 @@
 title:              BL Monitor & Control
 email:              georg.hulla@bl-mc.se
-description:        Accelerating the commercialization of compact particle accelerators through fully integrated, ready to go subsystems.
-author:             Georg Hulla
+description:        Accelerating the commercialization of compact particle accelerators with the Blinky-Lite control platform
+author:             BL Monitor & Control AB
 baseurl:            ""
 url:                "https://bl-mc.se"
 
 # Social Profiles
 twitter_username:   
-github_username:    Blinky-Lite
+#github_username:    Blinky-Lite
 facebook_username:  
 instagram_username:  
 linkedin_username:  bl-mc
