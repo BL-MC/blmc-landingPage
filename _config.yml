@@ -25,7 +25,7 @@ plugins:
   - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
 exclude:
   - upload.sh
-  - runlocal.sh
+  - runLocal.sh
   - jekyll-theme-clean-blog.gemspec
   - bin
   - README.md
