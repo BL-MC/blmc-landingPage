@@ -29,3 +29,6 @@ exclude:
   - jekyll-theme-clean-blog.gemspec
   - /bin
   - README.md
+  - LICENSE
+  - package-lock.json
+  - package.json
