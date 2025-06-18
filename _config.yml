@@ -26,3 +26,6 @@ plugins:
 exclude:
   - upload.sh
   - runlocal.sh
+  - jekyll-theme-clean-blog.gemspec
+  - /bin
+  - README.md
