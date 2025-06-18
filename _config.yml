@@ -27,7 +27,7 @@ exclude:
   - upload.sh
   - runlocal.sh
   - jekyll-theme-clean-blog.gemspec
-  - /bin
+  - bin
   - README.md
   - LICENSE
   - package-lock.json
