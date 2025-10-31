@@ -1,0 +1,18 @@
+# Author details
+#
+# 1. Edit information below
+# 2. Change site author in config.yml
+# 3. Change default post/page authors in config.yml
+#
+# Resource › http://blog.sorryapp.com/blogging-with-jekyll/2014/02/06/adding-authors-to-your-jekyll-site.html
+david-mcginnis: # replace this with your info
+  name: "david-mcginnis"
+  siterole: "webmaster, developer, copywriter, designer"
+  uri: https://github.com/Blinky-Lite
+  email: david.mcginnis@blinky-lite.org
+# you can add more authors here
+georg-hulla: # replace this with your info
+  name: "georg-hulla"
+  siterole: "webmaster, developer, copywriter, designer"
+  uri: https://github.com/Blinky-Lite
+  email: georg.hulla@blinky-lite.org

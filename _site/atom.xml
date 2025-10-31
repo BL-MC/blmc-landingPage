@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/assets/xslt/atom.xslt" ?>
+<?xml-stylesheet type="text/css" href="/assets/css/atom.css" ?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<id>/</id>
+	<title>BL Monitor and Control</title>
+	<updated>2025-10-31T20:06:18+01:00</updated>
+
+	<subtitle>Secure, remote access to custom high-performance hardware</subtitle>
+
+	
+		
+		<author>
+			
+				<name>david-mcginnis</name>
+			
+			
+				<email>david.mcginnis@blinky-lite.org</email>
+			
+			
+				<uri>https://github.com/Blinky-Lite</uri>
+			
+		</author>
+	
+
+	<link href="/atom.xml" rel="self" type="application/rss+xml" />
+	<link href="/" rel="alternate" type="text/html" />
+
+	<generator uri="http://jekyllrb.com" version="4.4.1">Jekyll</generator>
+
+	
+</feed>

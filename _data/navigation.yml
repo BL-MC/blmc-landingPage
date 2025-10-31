@@ -1,0 +1,24 @@
+- title: Start
+  url: "/"
+  side: left
+
+- title: Posts
+  url: "/blog/"
+  side: left
+#  dropdown:
+#  - title: "Boxes"
+#    url: "/boxes/"
+#  - title: "Trays"
+#    url: "/trays/"
+#  - title: "Cubes"
+#    url: "/cubes/"
+#  - title: "Post Archive"
+#    url: "/blog/archive/"
+
+- title: "Search"
+  url: "/search/"
+  side: right
+
+- title: "Contact"
+  url: "/contact/"
+  side: right
