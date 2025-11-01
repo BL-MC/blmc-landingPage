@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>/</id>
 	<title>BL Monitor and Control</title>
-	<updated>2025-10-31T20:06:18+01:00</updated>
+	<updated>2025-11-01T07:14:40+01:00</updated>
 
 	<subtitle>Secure, remote access to custom high-performance hardware</subtitle>
 
@@ -28,5 +28,606 @@
 
 	<generator uri="http://jekyllrb.com" version="4.4.1">Jekyll</generator>
 
+	
+		<entry>
+			<id>/trays/manDown/</id>
+			<title>Blinky-Lite IWA</title>
+			<link href="/trays/manDown/" rel="alternate" type="text/html" title="Blinky-Lite IWA" />
+			<updated>2024-11-25T00:00:00+01:00</updated>
+
+			
+				
+				<author>
+					
+						<name>david-mcginnis</name>
+					
+					
+						<email>david.mcginnis@blinky-lite.org</email>
+					
+					
+						<uri>https://github.com/Blinky-Lite</uri>
+					
+				</author>
+			
+			<summary>a fully integrated, long-range, man-down system</summary>
+			<content type="html" xml:base="/trays/manDown/">&lt;p&gt;&lt;img src=&quot;/images//2024-11-25-manDown/iwaHeader.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;color:#fdc100;font-weight:900;;font-size:200%;&quot;&gt;A complete system fully integrated with Blinky-Lite&lt;/p&gt;
+&lt;p&gt;From ringing church bells, to the modern world of mobile phones, man-down systems have been around since the dawn of time. So why would we need yet another one? It is because most man-down systems are focused on the endpoint device instead of the entire system. The resulting implementation is often a hodge-podge collection of software that is poorly integrated and difficult to operate and maintain.&lt;/p&gt;
+
+&lt;div class=&quot;row t30&quot;&gt;
+    &lt;div class=&quot;medium-8 columns&quot;&gt;
+        &lt;p style=&quot;color:#fdc100;font-weight:900;;font-size:200%;&quot;&gt;Easy to use and multi-functional&lt;/p&gt;
+        &lt;span&gt; As an alternative, Blinky-Lite now offers a man-down system that is seamlessly integrated with Blinky-Lite. The Blinky-Lite man-down system is simple to use. In an emergency situation, one does not have time to fumble around with a mobile phone, entering a password, then opening an app and hoping there is a GSM or wifi connection available. The Blinky-Lite man-down call device contains a simple red button that the user presses to call for help. In addition, the call device has an accelerometer to detect lack of motion or a fall and independently call for help if the user is incapacitated.
+        &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;medium-4 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-11-25-manDown/badgeOnBelt.jpg&quot;&gt;&lt;img style=&quot;border: 5px solid #ff6100;&quot; src=&quot;/images//2024-11-25-manDown/badgeOnBelt.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row t30&quot;&gt;
+   &lt;div class=&quot;medium-8 columns&quot;&gt;
+        &lt;p style=&quot;color:#fdc100;font-weight:900;;font-size:200%;&quot;&gt;LoRa Technology&lt;/p&gt;
+        &lt;span&gt;The call device uses a long range radio transmission, LoRa for short,  to signal for help. The call signal is detected by one or more of several LoRa receivers positioned around the facility offering redundancy, positioning, and complete coverage of hard to reach locations. The LoRa communication is completely independent and can be implemented in extremely remote locations such as at sea.
+        &lt;/span&gt;
+    &lt;/div&gt;
+     &lt;div class=&quot;medium-4 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-11-25-manDown/iwaLocator.jpg&quot;&gt;&lt;img style=&quot;border: 5px solid #ff6100;&quot; src=&quot;/images//2024-11-25-manDown/iwaLocator.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row t30&quot;&gt;
+    &lt;div class=&quot;medium-8 columns&quot;&gt;
+        &lt;p style=&quot;color:#fdc100;font-weight:900;;font-size:200%;&quot;&gt;Role Based Authentication&lt;/p&gt;
+        &lt;span&gt;The Blinky-Lite man-down system uses Blinky-lite role-based -access for authentication before a user can remove a call device from its cradle. Authentication allows tracking of individual users throughout the facility giving first responders a clear picture of where personnel are located.&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;medium-4 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-11-25-manDown/iwaAuthorize.jpg&quot;&gt;&lt;img style=&quot;border: 5px solid #ff6100;&quot; src=&quot;/images//2024-11-25-manDown/iwaAuthorize.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row t30&quot;&gt;
+   &lt;div class=&quot;medium-8 columns&quot;&gt;
+        &lt;p style=&quot;color:#fdc100;font-weight:900;;font-size:200%;&quot;&gt;Publish-Subscribe Notificiations&lt;/p&gt;
+        &lt;span&gt;The Blinky-Lite man-down system also takes advantage of the Blinky-lite publish-subscribe notification system so that multiple teams can respond to an emergency providing an extra layer of redundancy. As with all Blinky-Lite applications, the authentication, tracking, and configuration applications are web apps providing easy to use secure remote access anywhere.
+    &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;medium-4 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-11-25-manDown/iwaWatch.jpg&quot;&gt;&lt;img style=&quot;border: 5px solid #ff6100;&quot; src=&quot;/images//2024-11-25-manDown/iwaWatch.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+</content>
+
+			
+				<category term="trays" />
+			
+			
+				<category term="post sub-systems" />
+			
+
+			<published>2024-11-25T00:00:00+01:00</published>
+		</entry>
+	
+		<entry>
+			<id>/cubes/blinky-instrumentation-suite/</id>
+			<title>Blinky-Lite Instrumentation Suite</title>
+			<link href="/cubes/blinky-instrumentation-suite/" rel="alternate" type="text/html" title="Blinky-Lite Instrumentation Suite" />
+			<updated>2024-09-26T00:00:00+02:00</updated>
+
+			
+				
+				<author>
+					
+						<name>david-mcginnis</name>
+					
+					
+						<email>david.mcginnis@blinky-lite.org</email>
+					
+					
+						<uri>https://github.com/Blinky-Lite</uri>
+					
+				</author>
+			
+			<summary>A modular approach to distrubuted instrumentation</summary>
+			<content type="html" xml:base="/cubes/blinky-instrumentation-suite/">&lt;div class=&quot;row t30&quot;&gt;
+    &lt;img src=&quot;/images//2024-09-26/BLInstSuite.jpg&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;For instrumentation to be useful, it needs to be easily and quickly installed wherever a user needs it to be. Blinky-Lite accomplishes this with a suite of wireless instrumentation modules based on the Raspberry Pi Pico-W, including:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;span style=&quot;color:#fdc100;font-weight:900;&quot;&gt;Blinky-ADC&lt;/span&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Two channel ADC&lt;/li&gt;
+      &lt;li&gt;Range: 10V&lt;/li&gt;
+      &lt;li&gt;Resolution:  0.002V&lt;/li&gt;
+      &lt;li&gt;1Hz to 50 kHz of settable bandwidth&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;span style=&quot;color:#fdc100;font-weight:900;&quot;&gt;Blinky-DS18B20&lt;/span&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Three channel high resolution temperature monitor.&lt;/li&gt;
+      &lt;li&gt;Range: -50 to 125C&lt;/li&gt;
+      &lt;li&gt;Resolution: 0.05C&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;span style=&quot;color:#fdc100;font-weight:900;&quot;&gt;Blinky-Interlock&lt;/span&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Three channels that can be used in thermal switches, motion detectors, magnetic switches, etc.&lt;/li&gt;
+      &lt;li&gt;Daisy chain output for each channel provided.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;span style=&quot;color:#fdc100;font-weight:900;&quot;&gt;Blinky-Leak&lt;/span&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Three leak detector channels&lt;/li&gt;
+      &lt;li&gt;20 MOhm sensitivity&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;span style=&quot;color:#fdc100;font-weight:900;&quot;&gt;Blinky-420&lt;/span&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Three channel 4-20 mA convertor that can be reading for analog interfaces&lt;/li&gt;
+      &lt;li&gt;Resolution: 0.004 mA&lt;/li&gt;
+      &lt;li&gt;1Hz to 50 kHz of settable bandwidth&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;span style=&quot;color:#fdc100;font-weight:900;&quot;&gt;Blinky-Thermocouple&lt;/span&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Three channels K type thermocouple&lt;/li&gt;
+      &lt;li&gt;Range: -200C - 1350C&lt;/li&gt;
+      &lt;li&gt;Resolution: 0.25C&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;span style=&quot;color:#fdc100;font-weight:900;&quot;&gt;Blinky-MAX31865&lt;/span&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Two channel 4 wire resistor measurement&lt;/li&gt;
+      &lt;li&gt;Range: 0 to 4300 Ohms&lt;/li&gt;
+      &lt;li&gt;Resolution: 0.1 Ohms&lt;/li&gt;
+      &lt;li&gt;100 mS pulse mode for minimal self heating&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</content>
+
+			
+				<category term="cubes" />
+			
+			
+				<category term="post instrumentation" />
+			
+
+			<published>2024-09-26T00:00:00+02:00</published>
+		</entry>
+	
+		<entry>
+			<id>/trays/chladni/</id>
+			<title>Chladni Plate Demo</title>
+			<link href="/trays/chladni/" rel="alternate" type="text/html" title="Chladni Plate Demo" />
+			<updated>2024-09-20T00:00:00+02:00</updated>
+
+			
+				
+				<author>
+					
+						<name>david-mcginnis</name>
+					
+					
+						<email>david.mcginnis@blinky-lite.org</email>
+					
+					
+						<uri>https://github.com/Blinky-Lite</uri>
+					
+				</author>
+			
+			<summary>at the 2024 Max IV Open House</summary>
+			<content type="html" xml:base="/trays/chladni/">&lt;div class=&quot;row t30&quot;&gt;
+    &lt;div class=&quot;medium-6 columns&quot;&gt;
+        &lt;span&gt;&lt;img width=&quot;50px&quot; src=&quot;/images//2024-09-20/swedenFlag.jpg&quot; /&gt;&lt;/span&gt;
+        &lt;div style=&quot;padding:56.25% 0 0 0;position:relative;&quot;&gt;
+            &lt;iframe src=&quot;https://player.vimeo.com/video/1010856948?badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&quot; frameborder=&quot;5&quot; allow=&quot;autoplay; fullscreen; picture-in-picture; clipboard-write&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;&quot; title=&quot;Chladni Plate Demo at Max4 in Svenska&quot;&gt;&lt;/iframe&gt;
+        &lt;/div&gt;
+        &lt;script src=&quot;https://player.vimeo.com/api/player.js&quot;&gt;&lt;/script&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;medium-6 columns&quot;&gt;
+        &lt;span&gt;&lt;img width=&quot;50px&quot; src=&quot;/images//2024-09-20/ukFlag.jpg&quot; /&gt;&lt;/span&gt;
+        &lt;div style=&quot;padding:56.25% 0 0 0;position:relative;&quot;&gt;
+            &lt;iframe src=&quot;https://player.vimeo.com/video/1010725409?badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&quot; frameborder=&quot;5&quot; allow=&quot;autoplay; fullscreen; picture-in-picture; clipboard-write&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;&quot; title=&quot;Chladni Plate Demo at Max4 in English&quot;&gt;&lt;/iframe&gt;
+        &lt;/div&gt;
+        &lt;script src=&quot;https://player.vimeo.com/api/player.js&quot;&gt;&lt;/script&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row t30&quot;&gt;
+    &lt;div class=&quot;medium-3 columns&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;
+    &lt;div class=&quot;medium-6 columns&quot;&gt;
+        &lt;div style=&quot;padding:56.25% 0 0 0;position:relative;&quot;&gt;
+            &lt;iframe src=&quot;https://player.vimeo.com/video/1011900344?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; picture-in-picture; clipboard-write&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;&quot; title=&quot;Chaldni Plate Mode Scan&quot;&gt;&lt;/iframe&gt;
+        &lt;/div&gt;
+        &lt;script src=&quot;https://player.vimeo.com/api/player.js&quot;&gt;&lt;/script&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;medium-3 columns&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Max 4 makes bright light by wiggling electrons at high energies. The energy of the electron beam at Max IV is 3 billion Volts.  How do we get to such high energies into the electron beam? Well, we do it a little at a time by resonantly storing energy with electro-magnetic waves.&lt;/p&gt;
+
+&lt;p&gt;Because we cannot see electro-magnetic waves, this all seems very complicated. But sound waves behave very similar to electric waves and we can hear or “see” sound waves. One way to visualize sound waves is to use a Chladni plate. By vibrating metal plates at specific frequencies or tones, one can excite vibration resonances.&lt;/p&gt;
+
+&lt;p&gt;There will be places on the metal plate where the reflected waves add up and other places where the reflected waves cancel each other. One can see these patterns by sprinkling sand over the metal plate. Sand particles will be kicked away from the places where the reflected waves add up; and gather at the places where the reflected waves cancel.&lt;/p&gt;
+
+&lt;p&gt;By exciting the plates at different sound frequencies, one can excite different modes. since the metal plate is 2 dimensional, complicated and beautiful modes can be observed.&lt;/p&gt;
+</content>
+
+			
+				<category term="trays" />
+			
+			
+				<category term="post sub-systems" />
+			
+
+			<published>2024-09-20T00:00:00+02:00</published>
+		</entry>
+	
+		<entry>
+			<id>/cubes/maxiv-leak-incident/</id>
+			<title>Water Leak Incident at MaxIV</title>
+			<link href="/cubes/maxiv-leak-incident/" rel="alternate" type="text/html" title="Water Leak Incident at MaxIV" />
+			<updated>2024-07-08T00:00:00+02:00</updated>
+
+			
+				
+				<author>
+					
+						<name>david-mcginnis</name>
+					
+					
+						<email>david.mcginnis@blinky-lite.org</email>
+					
+					
+						<uri>https://github.com/Blinky-Lite</uri>
+					
+				</author>
+			
+			<summary>A perfect use case for remote monitoring with Blinky-Lite</summary>
+			<content type="html" xml:base="/cubes/maxiv-leak-incident/">&lt;p&gt;The water leak detection system for the 3 GeV ring at MaxIV laboratory has been installed for almost one year. Since the installation, no leak has been detected and one might begin to wonder if the system is needed at all.&lt;/p&gt;
+
+&lt;p&gt;However, that all changed during the weekend of Week 27. MaxIV began its summer shutdown at the beginning of Week 26. During the summer shutdown most of the staff leaves for vacation and the control room is not manned on weekends. However, on Friday 5-July, the Blinky-Lite water leak detector system at MaxIV sent out a notification that there was a leak in Sector 14. At first the leak subsided but then returned and grew steadily worse over the weekend. Since there was no staff available on the MaxIV site during the weekend, repair crews could not investigate until the following Monday. On Monday 8-July, the repair crew found a cooling hose leaking in Sector 14 and promptly repaired it.&lt;/p&gt;
+
+&lt;p&gt;Since water leaks rarely get better by themselves and often can become catastrophically worse, the prompt notification to remote observers by the Blinky-Lite water leak detector system during a vacation period when few staff were present probably saved MaxIV from a costly repair and cleanup.&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;medium-12 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-07-09/R3LeakDetection2024_07.jpg&quot;&gt;&lt;img src=&quot;/images//2024-07-09/R3LeakDetection2024_07.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+
+			
+				<category term="cubes" />
+			
+			
+				<category term="post instrumentation" />
+			
+
+			<published>2024-07-08T00:00:00+02:00</published>
+		</entry>
+	
+		<entry>
+			<id>/boxes/gantner/</id>
+			<title>Gantner Instruments Q-series Tutorial</title>
+			<link href="/boxes/gantner/" rel="alternate" type="text/html" title="Gantner Instruments Q-series Tutorial" />
+			<updated>2024-07-08T00:00:00+02:00</updated>
+
+			
+				
+				<author>
+					
+						<name>david-mcginnis</name>
+					
+					
+						<email>david.mcginnis@blinky-lite.org</email>
+					
+					
+						<uri>https://github.com/Blinky-Lite</uri>
+					
+				</author>
+			
+			<summary>We have teamed up with Gantner Instruments to develop a remote access data acquisition system that provides reliable, secure and traceable data acquisition.</summary>
+			<content type="html" xml:base="/boxes/gantner/">&lt;!--more--&gt;
+&lt;p&gt;Take a look at the &lt;a href=&quot;https://player.vimeo.com/video/922887394?dnt=1&quot;&gt;video tutorial&lt;/a&gt; and check out the  &lt;a href=&quot;https://www.gantner-instruments.com/blog/streamlining-data-acquisition/&quot;&gt;Gantner Instruments&lt;/a&gt; blog for more info.&lt;/p&gt;
+
+</content>
+
+			
+				<category term="boxes" />
+			
+			
+				<category term="post sub-systems" />
+			
+
+			<published>2024-07-08T00:00:00+02:00</published>
+		</entry>
+	
+		<entry>
+			<id>/cubes/arw2024-maxiv-leak/</id>
+			<title>The MaxIV Water Leak Detection System</title>
+			<link href="/cubes/arw2024-maxiv-leak/" rel="alternate" type="text/html" title="The MaxIV Water Leak Detection System" />
+			<updated>2024-07-05T00:00:00+02:00</updated>
+
+			
+				
+				<author>
+					
+						<name>david-mcginnis</name>
+					
+					
+						<email>david.mcginnis@blinky-lite.org</email>
+					
+					
+						<uri>https://github.com/Blinky-Lite</uri>
+					
+				</author>
+			
+			<summary>Presented at the ARW 2024 Accelerator Reliability Workshop</summary>
+			<content type="html" xml:base="/cubes/arw2024-maxiv-leak/">&lt;p&gt;Since a substantial source of accelerator downtime and damage results from water leaks, a water leak detection system was installed in the MaxIV 3 GeV tunnel and computer server rooms in the Fall of 2023. This system is over 700 meters long and can determine leak location to within 20 meters.&lt;/p&gt;
+
+&lt;p&gt;The system uses low cost, off-the-shelf, IoT components. Since the system is based on IoT technology, no communications cables are required resulting in a materials cost of about 1.5 euros/meter and an installation cost of 0.2 man-hours/meter.&lt;/p&gt;
+
+&lt;p&gt;The system notifies users of water leaks through the MaxIV Notification system and is also available on native Android and IoS apps. Besides water leak detection, the system alarms on detector fault and communication failure.&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;medium-12 columns&quot;&gt;
+        &lt;div style=&quot;position: relative; padding-bottom: 75%;height: 0px;&quot;&gt;
+            &lt;iframe style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 73%;&quot; src=&quot;https://docs.google.com/presentation/d/e/2PACX-1vQlhKm9JDRuqH7Cxd_mu2TEXejNH_udkNUSSV3RKbBEwmzhHJdEV81xtik0YcrwiU0v2fDMq54MVAj0/embed?start=true&amp;amp;loop=true&amp;amp;delayms=10000&quot; frameborder=&quot;5&quot; width=&quot;2000&quot; height=&quot;1044&quot; allowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+
+			
+				<category term="cubes" />
+			
+			
+				<category term="post instrumentation" />
+			
+
+			<published>2024-07-05T00:00:00+02:00</published>
+		</entry>
+	
+		<entry>
+			<id>/trays/mode0/</id>
+			<title>Blinky-Lite Mode 0 beam stabilization system</title>
+			<link href="/trays/mode0/" rel="alternate" type="text/html" title="Blinky-Lite Mode 0 beam stabilization system" />
+			<updated>2024-01-24T00:00:00+01:00</updated>
+
+			
+				
+				<author>
+					
+						<name>david-mcginnis</name>
+					
+					
+						<email>david.mcginnis@blinky-lite.org</email>
+					
+					
+						<uri>https://github.com/Blinky-Lite</uri>
+					
+				</author>
+			
+			<summary>increases beam brightness at MaxIV Synchrotron Light Source</summary>
+			<content type="html" xml:base="/trays/mode0/">&lt;p&gt;3 GeV Beam operations at maximum intensity has just resumed at MaxIV for 2024. The mode 0 beam stabilization system has been key to achieving the MaxIV beam brightness. Without the system, MaxIV would only be able operate at 25% of its current operating intensity. The Mode 0 beam stabilization system is based on the &lt;a href=&quot;https://redpitaya.com/stemlab-125-14/&quot;&gt;Red Pitaya StemLab125-14&lt;/a&gt; RF signal acquisition and generation platform  integrated into the Blinky-Lite framework resulting in a compact, low-cost but robust system. The Red Pitaya Mode 0 system has been operating for over a year without causing any down-time to the accelerator.&lt;/p&gt;
+
+&lt;div class=&quot;row t30&quot;&gt;
+    &lt;div class=&quot;medium-4 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-01-24/2024-01-24-01.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-24/2024-01-24-01.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;medium-4 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-01-24/2024-01-24-02.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-24/2024-01-24-02.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;medium-4 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-01-24/2024-01-24-03.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-24/2024-01-24-03.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row t30&quot;&gt;
+    &lt;div class=&quot;medium-6 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-01-24/2024-01-24-04.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-24/2024-01-24-04.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;medium-6 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-01-24/2024-01-24-05.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-24/2024-01-24-05.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row t30&quot;&gt;
+    &lt;div class=&quot;medium-6 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-01-24/2024-01-24-06.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-24/2024-01-24-06.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;medium-6 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-01-24/2024-01-24-07.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-24/2024-01-24-07.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+
+			
+				<category term="trays" />
+			
+			
+				<category term="post sub-systems" />
+			
+
+			<published>2024-01-24T00:00:00+01:00</published>
+		</entry>
+	
+		<entry>
+			<id>/trays/ls224/</id>
+			<title>LS 224 cryogenic temperature monitor control with Blinky-Lite</title>
+			<link href="/trays/ls224/" rel="alternate" type="text/html" title="LS 224 cryogenic temperature monitor control with Blinky-Lite" />
+			<updated>2024-01-15T00:00:00+01:00</updated>
+
+			
+				
+				<author>
+					
+						<name>david-mcginnis</name>
+					
+					
+						<email>david.mcginnis@blinky-lite.org</email>
+					
+					
+						<uri>https://github.com/Blinky-Lite</uri>
+					
+				</author>
+			
+			<summary>including control, monitoring, and curve loading applications</summary>
+			<content type="html" xml:base="/trays/ls224/">&lt;p&gt;Superconducting Radio Frequency (SCRF) cavities are a key technology for compact commercial electron accelerators being developed at laboratories such as &lt;a href=&quot;https://iarc.fnal.gov/&quot;&gt;IARC at Fermilab&lt;/a&gt;. The cavities are cooled to about -270C and are monitored with sophisticated cryogenic measurements systems such as the LS224 developed by &lt;a href=&quot;https://www.lakeshore.com/&quot;&gt;Lakeshore Cryotronics&lt;/a&gt;. The LS-224 provides 12 channels of temperature measurement and can store 60 sensor calibrations curves with each curve containing up to 200 points. The complexity of the instrument can be challenging for a typical name-value pair based control communication protocol to handle. However, this is not the case with the  system-view architecture of Blinky-Lite. With Blinky-Lite, we developed a complete remote web-based control platform for the LS-224 complete with three custom web applications for control, monitoring, and curve loading.&lt;/p&gt;
+
+&lt;div class=&quot;row t30&quot;&gt;
+    &lt;div class=&quot;medium-4 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-01-15/2024-01-15-01.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-15/2024-01-15-01.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;medium-4 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-01-15/2024-01-15-02.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-15/2024-01-15-02.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;medium-4 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-01-15/2024-01-15-03.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-15/2024-01-15-03.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row t30&quot;&gt;
+    &lt;div class=&quot;medium-12 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-01-15/2024-01-15-04.png&quot;&gt;&lt;img src=&quot;/images//2024-01-15/2024-01-15-04.png&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+</content>
+
+			
+				<category term="trays" />
+			
+			
+				<category term="post sub-systems" />
+			
+
+			<published>2024-01-15T00:00:00+01:00</published>
+		</entry>
+	
+		<entry>
+			<id>/cubes/maxiv-leak-700/</id>
+			<title>Over 700 meters of Blinky-Leak system operational at the Max-IV Light Source</title>
+			<link href="/cubes/maxiv-leak-700/" rel="alternate" type="text/html" title="Over 700 meters of Blinky-Leak system operational at the Max-IV Light Source" />
+			<updated>2024-01-10T00:00:00+01:00</updated>
+
+			
+				
+				<author>
+					
+						<name>david-mcginnis</name>
+					
+					
+						<email>david.mcginnis@blinky-lite.org</email>
+					
+					
+						<uri>https://github.com/Blinky-Lite</uri>
+					
+				</author>
+			
+			<summary>Complete coverage of 3GeV ring and computer server rooms</summary>
+			<content type="html" xml:base="/cubes/maxiv-leak-700/">&lt;p&gt;During the 2023-2024 Winter shutdown over 700 meters of Blinky-Leak detector was made operational in the MaxIV computer server rooms and the 520 meter 3 GeV Ring. Fourteen wireless &lt;a href=&quot;https://github.com/Blinky-Lite/blinky-leak-cube&quot;&gt;Blinky-Leak cubes&lt;/a&gt; that could read two 20 meter long detectors comprise the system. The complete system is operational and connected to the MaxIV notification system. System performance can be viewed at the &lt;a href=&quot;https://www.bl-maxiv.se/&quot;&gt;BL-Max-IV external apps&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+
+    &lt;div class=&quot;medium-12 columns&quot;&gt;
+        &lt;div style=&quot;position: relative; padding-bottom: 75%;height: 0px;&quot;&gt;
+            &lt;iframe style=&quot;position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; src=&quot;https://player.vimeo.com/video/906812424?dnt=1&quot;&gt;&lt;/iframe&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;medium-6 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-01-03/2024-01-03-01.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-03/2024-01-03-01.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;medium-6 columns&quot;&gt;
+         &lt;a href=&quot;/images//2024-01-10/2024-01-10-03.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-10/2024-01-10-03.jpg&quot; /&gt;&lt;/a&gt;
+   &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row t30&quot;&gt;
+    &lt;div class=&quot;medium-6 columns&quot;&gt;
+         &lt;a href=&quot;/images//2024-01-10/2024-01-10-02.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-10/2024-01-10-02.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;medium-6 columns&quot;&gt;
+         &lt;a href=&quot;/images//2024-01-03/2024-01-03-06.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-03/2024-01-03-06.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+
+			
+				<category term="cubes" />
+			
+			
+				<category term="post instrumentation" />
+			
+
+			<published>2024-01-10T00:00:00+01:00</published>
+		</entry>
+	
+		<entry>
+			<id>/cubes/Blinky-Thermo-Cam/</id>
+			<title>Blinky-Thermo-Cam </title>
+			<link href="/cubes/Blinky-Thermo-Cam/" rel="alternate" type="text/html" title="Blinky-Thermo-Cam " />
+			<updated>2024-01-05T00:00:00+01:00</updated>
+
+			
+				
+				<author>
+					
+						<name>david-mcginnis</name>
+					
+					
+						<email>david.mcginnis@blinky-lite.org</email>
+					
+					
+						<uri>https://github.com/Blinky-Lite</uri>
+					
+				</author>
+			
+			<summary>with JupyterLab integration for deep learning</summary>
+			<content type="html" xml:base="/cubes/Blinky-Thermo-Cam/">&lt;p&gt;Since the Blinky-Lite framework uses &lt;a href=&quot;https://www.mongodb.com/&quot;&gt;MongoDB&lt;/a&gt; for storing data, integration into &lt;a href=&quot;https://jupyterlab.readthedocs.io/en/latest/&quot;&gt;JupyterLab&lt;/a&gt; using &lt;a href=&quot;https://pymongo.readthedocs.io/en/stable/&quot;&gt;PyMongo&lt;/a&gt; is straightforward. As an example, we integrated the &lt;a href=&quot;https://github.com/Blinky-Lite/blinky-thermo-cam-cube&quot;&gt;Blinky-Thermo-Cam&lt;/a&gt; with JupyterLab. This integration could be used to &lt;span style=&quot;color:#ff6100;font-weight: bold&quot;&gt; develop deep-learning models&lt;/span&gt; for thermal imaging streams which could be useful in many diverse  fields such as &lt;span style=&quot;color:cyan;font-weight: bold&quot;&gt;animal monitoring, chemical process monitoring, or equipment failure diagnosis&lt;/span&gt;.&lt;/p&gt;
+
+&lt;p&gt;Blinky-Thermo-Cam is a low cost, remotely deployable, thermal imaging processing system based on the &lt;a href=&quot;https://www.flir.com/products/lepton/?vertical=microcam&amp;amp;segment=oem&quot;&gt;Flir Lepton LWIR Micro Thermal Camera Module&lt;/a&gt;. Blinky-Thermo-Cam is wireless and can operate on 5V batteries for remote operation. Periodic, manual, or motion triggering modes are available.&lt;/p&gt;
+
+&lt;div class=&quot;row t30&quot;&gt;
+    &lt;div class=&quot;medium-6 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-01-05/2024-01-05-02.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-05/2024-01-05-02.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;medium-6 columns&quot;&gt;
+        &lt;div style=&quot;position: relative; padding-bottom: 75%;height: 0px;&quot;&gt;
+            &lt;iframe style=&quot;position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; src=&quot;https://player.vimeo.com/video/906812643?dnt=1&quot;&gt;&lt;/iframe&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row t30&quot;&gt;
+    &lt;div class=&quot;medium-4 columns&quot;&gt;
+         &lt;a href=&quot;/images//2024-01-05/2024-01-05-03.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-05/2024-01-05-03.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;medium-4 columns&quot;&gt;
+         &lt;a href=&quot;/images//2024-01-05/2024-01-05-05.png&quot;&gt;&lt;img src=&quot;/images//2024-01-05/2024-01-05-05.png&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;medium-4 columns&quot;&gt;
+         &lt;a href=&quot;/images//2024-01-05/2024-01-05-04.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-05/2024-01-05-04.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+
+			
+				<category term="cubes" />
+			
+			
+				<category term="post instrumentation" />
+			
+
+			<published>2024-01-05T00:00:00+01:00</published>
+		</entry>
 	
 </feed>
