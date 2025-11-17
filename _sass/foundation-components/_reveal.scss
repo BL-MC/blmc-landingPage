@@ -74,7 +74,7 @@ $close-reveal-modal-class: "close-reveal-modal" !default;
     position: absolute;
     z-index: 1005;
     width: 100vw;
-    top:400px;     //Done by Dave McGinnis
+    top:0;
     border-radius: $border-radius;
     #{$default-float}: 0;
 
