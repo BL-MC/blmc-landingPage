@@ -11,11 +11,14 @@ widget1:
   title: "Compact Superconducting Accelerator"
   video: '<a href="#" data-reveal-id="videoModal1"><img src="/images/fermilabThumb.png" width="450" height="253" alt="" style="border: 5px solid #89bee6;"/></a>'
 widget2:
-  title: "Sustainable Chemical Container Management System"
-  video: '<a href="#" data-reveal-id="videoModal2"><img src="/images/concenSmartThumb.png" width="450" height="253" alt="" style="border: 5px solid #89bee6;"/><a>'
+  title: "Compact Neutron Source"
+  video: '<a href="#" data-reveal-id="videoModal2"><img src="/images/mirrotronThumb.png" width="450" height="253" alt="" style="border: 5px solid #89bee6;"/><a>'
 widget3:
+  title: "Sustainable Chemical Container Management System"
+  video: '<a href="#" data-reveal-id="videoModal3"><img src="/images/concenSmartThumb.png" width="450" height="253" alt="" style="border: 5px solid #89bee6;"/><a>'
+widget4:
   title: "Legacy Heat Pump Crossover Control"
-  video: '<a href="#" data-reveal-id="videoModal3"><img src="/images/autoseum-thumbnail.png" width="450" height="253" alt="" style="border: 5px solid #89bee6;"/><a>'
+  video: '<a href="#" data-reveal-id="videoModal4"><img src="/images/autoseum-thumbnail.png" width="450" height="253" alt="" style="border: 5px solid #89bee6;"/><a>'
 
 #
 # Use the call for action to show a button on the frontpage
@@ -46,11 +49,17 @@ homepage: true
 </div>
 <div id="videoModal2" class="reveal-modal large" data-reveal="">
   <div class="flex-video widescreen vimeo" style="display: block;">
-    <iframe width="1280" height="720" src="https://player.vimeo.com/video/1112714776?dnt=1" frameborder="0" allowfullscreen></iframe>
+    <iframe width="1280" height="720" src="https://player.vimeo.com/video/1139318022?dnt=1" frameborder="0" allowfullscreen></iframe>
   </div>
   <a class="close-reveal-modal">&#215;</a>
 </div>
 <div id="videoModal3" class="reveal-modal large" data-reveal="">
+  <div class="flex-video widescreen vimeo" style="display: block;">
+    <iframe width="1280" height="720" src="https://player.vimeo.com/video/1137460596?dnt=1" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <a class="close-reveal-modal">&#215;</a>
+</div>
+<div id="videoModal4" class="reveal-modal large" data-reveal="">
   <div class="flex-video widescreen vimeo" style="display: block;">
     <iframe width="1280" height="720" src="https://player.vimeo.com/video/1137460596?dnt=1" frameborder="0" allowfullscreen></iframe>
   </div>
