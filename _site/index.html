@@ -266,13 +266,15 @@
 
 <div class="medium-6 columns frontpage-widget">
 	
-		<a href="#" data-reveal-id="videoModal1"><img src="/images/fermilabThumb.png" width="450" height="253" alt="" style="border: 5px solid #89bee6;"/></a>
+		<a href="#" data-reveal-id="videoModal1" onclick="toppy(1)" ><img src="/images/fermilabThumb.png" width="450" height="253" alt="" style="border: 5px solid #89bee6;"/></a>
 	
 	<h2 class="font-size-h3 t10">Compact Superconducting Accelerator</h2>
 
 	<p></p>
 	
 </div>
+
+	
 	    
 
         
@@ -285,13 +287,15 @@
 
 <div class="medium-6 columns frontpage-widget">
 	
-		<a href="#" data-reveal-id="videoModal2"><img src="/images/mirrotronThumb.png" width="450" height="253" alt="" style="border: 5px solid #89bee6;"/><a>
+		<a href="#" data-reveal-id="videoModal2" onclick="toppy(2)" ><img src="/images/mirrotronThumb.png" width="450" height="253" alt="" style="border: 5px solid #89bee6;"/><a>
 	
 	<h2 class="font-size-h3 t10">Compact Neutron Source</h2>
 
 	<p></p>
 	
 </div>
+
+	
         
 
 </div><!-- /.row -->
@@ -306,13 +310,15 @@
 
 <div class="medium-6 columns frontpage-widget">
 	
-		<a href="#" data-reveal-id="videoModal3"><img src="/images/concenSmartThumb.png" width="450" height="253" alt="" style="border: 5px solid #89bee6;"/><a>
+		<a href="#" data-reveal-id="videoModal3" onclick="toppy(3)" ><img src="/images/concenSmartThumb.png" width="450" height="253" alt="" style="border: 5px solid #89bee6;"/><a>
 	
 	<h2 class="font-size-h3 t10">Sustainable Chemical Container Management System</h2>
 
 	<p></p>
 	
 </div>
+
+	
     
 
     
@@ -325,13 +331,15 @@
 
 <div class="medium-6 columns frontpage-widget">
 	
-		<a href="#" data-reveal-id="videoModal4"><img src="/images/autoseum-thumbnail.png" width="450" height="253" alt="" style="border: 5px solid #89bee6;"/><a>
+		<a href="#" data-reveal-id="videoModal4" onclick="toppy(4)" ><img src="/images/autoseum-thumbnail.png" width="450" height="253" alt="" style="border: 5px solid #89bee6;"/><a>
 	
 	<h2 class="font-size-h3 t10">Legacy Heat Pump Crossover Control</h2>
 
 	<p></p>
 	
 </div>
+
+	
     
 
 </div><!-- /.row -->
@@ -430,6 +438,14 @@
   </div>
   <a class="close-reveal-modal">&#215;</a>
 </div>
+<script>
+  function toppy(videoModal)
+  {
+    let topValue1 = parseInt(window.getComputedStyle(document.getElementById("videoModal" + videoModal.toString())).getPropertyValue('top').replace('px',''), 10);
+    if (topValue1 < 10) window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
+
 
 </div><!-- /.row -->
 

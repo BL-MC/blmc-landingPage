@@ -9,16 +9,16 @@ header:
   image_fullwidth: mirrotronCoolingHdr.jpg
 widget1:
   title: "Compact Superconducting Accelerator"
-  video: '<a href="#" data-reveal-id="videoModal1"><img src="/images/fermilabThumb.png" width="450" height="253" alt="" style="border: 5px solid #89bee6;"/></a>'
+  video: '<a href="#" data-reveal-id="videoModal1" onclick="toppy(1)" ><img src="/images/fermilabThumb.png" width="450" height="253" alt="" style="border: 5px solid #89bee6;"/></a>'
 widget2:
   title: "Compact Neutron Source"
-  video: '<a href="#" data-reveal-id="videoModal2"><img src="/images/mirrotronThumb.png" width="450" height="253" alt="" style="border: 5px solid #89bee6;"/><a>'
+  video: '<a href="#" data-reveal-id="videoModal2" onclick="toppy(2)" ><img src="/images/mirrotronThumb.png" width="450" height="253" alt="" style="border: 5px solid #89bee6;"/><a>'
 widget3:
   title: "Sustainable Chemical Container Management System"
-  video: '<a href="#" data-reveal-id="videoModal3"><img src="/images/concenSmartThumb.png" width="450" height="253" alt="" style="border: 5px solid #89bee6;"/><a>'
+  video: '<a href="#" data-reveal-id="videoModal3" onclick="toppy(3)" ><img src="/images/concenSmartThumb.png" width="450" height="253" alt="" style="border: 5px solid #89bee6;"/><a>'
 widget4:
   title: "Legacy Heat Pump Crossover Control"
-  video: '<a href="#" data-reveal-id="videoModal4"><img src="/images/autoseum-thumbnail.png" width="450" height="253" alt="" style="border: 5px solid #89bee6;"/><a>'
+  video: '<a href="#" data-reveal-id="videoModal4" onclick="toppy(4)" ><img src="/images/autoseum-thumbnail.png" width="450" height="253" alt="" style="border: 5px solid #89bee6;"/><a>'
 
 #
 # Use the call for action to show a button on the frontpage
@@ -65,3 +65,10 @@ homepage: true
   </div>
   <a class="close-reveal-modal">&#215;</a>
 </div>
+<script>
+  function toppy(videoModal)
+  {
+    let topValue1 = parseInt(window.getComputedStyle(document.getElementById("videoModal" + videoModal.toString())).getPropertyValue('top').replace('px',''), 10);
+    if (topValue1 < 10) window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
