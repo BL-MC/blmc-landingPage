@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>/</id>
 	<title>BL Monitor and Control</title>
-	<updated>2025-11-22T16:54:03+01:00</updated>
+	<updated>2025-11-27T17:25:32+01:00</updated>
 
 	<subtitle>Secure, remote access to custom high-performance hardware</subtitle>
 
@@ -28,6 +28,50 @@
 
 	<generator uri="http://jekyllrb.com" version="4.4.1">Jekyll</generator>
 
+	
+		<entry>
+			<id>/boxes/twoRFsystemControl/</id>
+			<title>Simultaneous Remote Control of RF systems</title>
+			<link href="/boxes/twoRFsystemControl/" rel="alternate" type="text/html" title="Simultaneous Remote Control of RF systems" />
+			<updated>2025-11-27T00:00:00+01:00</updated>
+
+			
+				
+				<author>
+					
+						<name>david-mcginnis</name>
+					
+					
+						<email>david.mcginnis@blinky-lite.org</email>
+					
+					
+						<uri>https://github.com/Blinky-Lite</uri>
+					
+				</author>
+			
+			<summary>A Remote Access example</summary>
+			<content type="html" xml:base="/boxes/twoRFsystemControl/">&lt;p&gt;&lt;img src=&quot;/images//2025-11-27/twoAccelerators.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;BL Monitor and Control AB is headquartered in Sweden. Currently we are working on two separate compact accelerator projects&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A compact neutron source located near Budapest, Hungary&lt;/li&gt;
+  &lt;li&gt;A compact superconducting RF electron accelerator located at Fermilab near Chicago, Illinois&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Currently both facilities are up and running at the same time. From our headquarters in Sweden, we had a busy day overseeing the tuning of the RF systems for both of the accelerators simutaneously. One the left side of the image is the main control app and vacuum app for the compact neutron source Radio Frequency Quadrupole (RFQ). We were stepping up the RF power to condition the RFQ after a long shutdown.&lt;/p&gt;
+
+&lt;p&gt;On the right side of the image is the low level RF control app for the compact superconducting RF electron accelerator. We were tuning the phase lock loop to lock into the high Q cavity after the cavity has been cooled down to 4 Kelvin.&lt;/p&gt;
+</content>
+
+			
+				<category term="boxes" />
+			
+			
+				<category term="post systems" />
+			
+
+			<published>2025-11-27T00:00:00+01:00</published>
+		</entry>
 	
 		<entry>
 			<id>/trays/manDown/</id>
@@ -569,65 +613,6 @@
 			
 
 			<published>2024-01-10T00:00:00+01:00</published>
-		</entry>
-	
-		<entry>
-			<id>/cubes/Blinky-Thermo-Cam/</id>
-			<title>Blinky-Thermo-Cam </title>
-			<link href="/cubes/Blinky-Thermo-Cam/" rel="alternate" type="text/html" title="Blinky-Thermo-Cam " />
-			<updated>2024-01-05T00:00:00+01:00</updated>
-
-			
-				
-				<author>
-					
-						<name>david-mcginnis</name>
-					
-					
-						<email>david.mcginnis@blinky-lite.org</email>
-					
-					
-						<uri>https://github.com/Blinky-Lite</uri>
-					
-				</author>
-			
-			<summary>with JupyterLab integration for deep learning</summary>
-			<content type="html" xml:base="/cubes/Blinky-Thermo-Cam/">&lt;p&gt;Since the Blinky-Lite framework uses &lt;a href=&quot;https://www.mongodb.com/&quot;&gt;MongoDB&lt;/a&gt; for storing data, integration into &lt;a href=&quot;https://jupyterlab.readthedocs.io/en/latest/&quot;&gt;JupyterLab&lt;/a&gt; using &lt;a href=&quot;https://pymongo.readthedocs.io/en/stable/&quot;&gt;PyMongo&lt;/a&gt; is straightforward. As an example, we integrated the &lt;a href=&quot;https://github.com/Blinky-Lite/blinky-thermo-cam-cube&quot;&gt;Blinky-Thermo-Cam&lt;/a&gt; with JupyterLab. This integration could be used to &lt;span style=&quot;color:#ff6100;font-weight: bold&quot;&gt; develop deep-learning models&lt;/span&gt; for thermal imaging streams which could be useful in many diverse  fields such as &lt;span style=&quot;color:cyan;font-weight: bold&quot;&gt;animal monitoring, chemical process monitoring, or equipment failure diagnosis&lt;/span&gt;.&lt;/p&gt;
-
-&lt;p&gt;Blinky-Thermo-Cam is a low cost, remotely deployable, thermal imaging processing system based on the &lt;a href=&quot;https://www.flir.com/products/lepton/?vertical=microcam&amp;amp;segment=oem&quot;&gt;Flir Lepton LWIR Micro Thermal Camera Module&lt;/a&gt;. Blinky-Thermo-Cam is wireless and can operate on 5V batteries for remote operation. Periodic, manual, or motion triggering modes are available.&lt;/p&gt;
-
-&lt;div class=&quot;row t30&quot;&gt;
-    &lt;div class=&quot;medium-6 columns&quot;&gt;
-        &lt;a href=&quot;/images//2024-01-05/2024-01-05-02.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-05/2024-01-05-02.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;/div&gt;
-
-    &lt;div class=&quot;medium-6 columns&quot;&gt;
-        &lt;div style=&quot;position: relative; padding-bottom: 75%;height: 0px;&quot;&gt;
-            &lt;iframe style=&quot;position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; src=&quot;https://player.vimeo.com/video/906812643?dnt=1&quot;&gt;&lt;/iframe&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;row t30&quot;&gt;
-    &lt;div class=&quot;medium-4 columns&quot;&gt;
-         &lt;a href=&quot;/images//2024-01-05/2024-01-05-03.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-05/2024-01-05-03.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;medium-4 columns&quot;&gt;
-         &lt;a href=&quot;/images//2024-01-05/2024-01-05-05.png&quot;&gt;&lt;img src=&quot;/images//2024-01-05/2024-01-05-05.png&quot; /&gt;&lt;/a&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;medium-4 columns&quot;&gt;
-         &lt;a href=&quot;/images//2024-01-05/2024-01-05-04.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-05/2024-01-05-04.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-</content>
-
-			
-				<category term="cubes" />
-			
-			
-				<category term="post instrumentation" />
-			
-
-			<published>2024-01-05T00:00:00+01:00</published>
 		</entry>
 	
 </feed>
