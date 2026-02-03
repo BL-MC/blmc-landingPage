@@ -9,6 +9,53 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Revolutionizing Vacuum Bake-Out Systems with DMX512</title>
+				<link>/cubes/dmx-control/</link>
+				<pubDate>Tue, 03 Feb 2026 00:00:00 +0100</pubDate>
+				<description>&lt;p&gt;Building a remotely accessible ultra-high vacuum bake-out system presents a unique engineering challenge: managing significant power safely and affordably. Typically, these systems rely on &lt;strong&gt;800W to 2kW heating tapes&lt;/strong&gt;. While we always utilize CE-marked, commercially available power converters for safety, we realized that using standard DC supplies for heat production was unnecessarily complex and expensive for simple resistive heating.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-lighting-breakthrough-high-power-low-cost&quot;&gt;&lt;strong&gt;The Lighting Breakthrough: High Power, Low Cost&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;We discovered an elegant solution in an unexpected place: the theater. Channel dimmers used for theatrical lighting match our power requirements perfectly and are significantly more cost-effective than traditional DC power converters.&lt;/p&gt;
+
+&lt;p&gt;By adopting &lt;strong&gt;DMX512&lt;/strong&gt;—the industry standard for stage lighting—we gained a robust framework for control. Under the hood, DMX512 is essentially RS-485. To bridge this to our system, we built a custom interface using a &lt;strong&gt;Raspberry Pi PicoW&lt;/strong&gt; and an &lt;strong&gt;SN75176A Differential Bus Transceiver&lt;/strong&gt; chip.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;under-the-hood-raspberry-pi-picow--pio&quot;&gt;&lt;strong&gt;Under the Hood: Raspberry Pi PicoW &amp;amp; PIO&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;The Raspberry Pi PicoW is our “workhorse” for interfacing with our &lt;strong&gt;Blinky-Lite&lt;/strong&gt; control system. Its architecture provides two major technical advantages for industrial control:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Dual-Core Efficiency:&lt;/strong&gt; We dedicate one core entirely to Blinky-Lite communications and the second core to the custom logic for the specific device. This ensures that a heavy communication load never delays critical hardware control.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;The PIO Advantage:&lt;/strong&gt; The PicoW features eight &lt;strong&gt;Programmable I/O (PIO)&lt;/strong&gt; state machines. We use one of these to manage the DMX512 signal generation. Because the PIO handles the timing-critical bit-banging hardware-side, it doesn’t tax the main processor cores at all.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Massive Scalability:&lt;/strong&gt; While we currently only need to control a one-device “universe,” a single PIO state machine can handle 512 devices. With the PicoW’s eight PIO machines, this tiny controller theoretically has the power to manage &lt;strong&gt;4,096 DMX devices&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;reliability-in-the-wireless-world&quot;&gt;&lt;strong&gt;Reliability in the Wireless World&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;When we tell people we use wireless communications for industrial vacuum systems, the first question is always: &lt;em&gt;“Is it reliable?”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The answer is a definitive &lt;strong&gt;yes&lt;/strong&gt;. When implemented with the right redundancies, wireless can be more reliable than a physical cable plant subject to wear and interference. Our “triple-layered strategy” for rock-solid communication includes:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;MQTT Protocol:&lt;/strong&gt; A robust, industry-standard messaging protocol for IoT.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Watchdog Counters:&lt;/strong&gt; Every device monitors both upload and download counters to instantly flag missing packets.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Fail-Safe Actions:&lt;/strong&gt; The system is programmed to take immediate “safe-state” actions (such as shutting down heaters) the moment a communication lapse is detected.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;beyond-the-lab&quot;&gt;&lt;strong&gt;Beyond the Lab&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;While we built this for ultra-high vacuum systems, the applications are endless. This controller is equally at home managing wireless theatrical lighting or any high-power industrial application where cabling is a liability.&lt;/p&gt;
+
+&lt;p&gt;By thinking outside the box—and inside the theater—we’ve created a system that is safer, cheaper, and more scalable. Best of all? &lt;strong&gt;No more cables to trip over.&lt;/strong&gt;&lt;/p&gt;
+</description>
+				<guid isPermaLink="true">/cubes/dmx-control/</guid>
+			</item>
+		
+			<item>
 				<title>Simultaneous Remote Control of RF systems</title>
 				<link>/boxes/twoRFsystemControl/</link>
 				<pubDate>Thu, 27 Nov 2025 00:00:00 +0100</pubDate>
@@ -306,42 +353,6 @@
 
 </description>
 				<guid isPermaLink="true">/trays/ls224/</guid>
-			</item>
-		
-			<item>
-				<title>Over 700 meters of Blinky-Leak system operational at the Max-IV Light Source</title>
-				<link>/cubes/maxiv-leak-700/</link>
-				<pubDate>Wed, 10 Jan 2024 00:00:00 +0100</pubDate>
-				<description>&lt;p&gt;During the 2023-2024 Winter shutdown over 700 meters of Blinky-Leak detector was made operational in the MaxIV computer server rooms and the 520 meter 3 GeV Ring. Fourteen wireless &lt;a href=&quot;https://github.com/Blinky-Lite/blinky-leak-cube&quot;&gt;Blinky-Leak cubes&lt;/a&gt; that could read two 20 meter long detectors comprise the system. The complete system is operational and connected to the MaxIV notification system. System performance can be viewed at the &lt;a href=&quot;https://www.bl-maxiv.se/&quot;&gt;BL-Max-IV external apps&lt;/a&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;row&quot;&gt;
-
-    &lt;div class=&quot;medium-12 columns&quot;&gt;
-        &lt;div style=&quot;position: relative; padding-bottom: 75%;height: 0px;&quot;&gt;
-            &lt;iframe style=&quot;position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; src=&quot;https://player.vimeo.com/video/906812424?dnt=1&quot;&gt;&lt;/iframe&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;row&quot;&gt;
-    &lt;div class=&quot;medium-6 columns&quot;&gt;
-        &lt;a href=&quot;/images//2024-01-03/2024-01-03-01.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-03/2024-01-03-01.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;/div&gt;
-
-    &lt;div class=&quot;medium-6 columns&quot;&gt;
-         &lt;a href=&quot;/images//2024-01-10/2024-01-10-03.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-10/2024-01-10-03.jpg&quot; /&gt;&lt;/a&gt;
-   &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;row t30&quot;&gt;
-    &lt;div class=&quot;medium-6 columns&quot;&gt;
-         &lt;a href=&quot;/images//2024-01-10/2024-01-10-02.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-10/2024-01-10-02.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;/div&gt;
-
-    &lt;div class=&quot;medium-6 columns&quot;&gt;
-         &lt;a href=&quot;/images//2024-01-03/2024-01-03-06.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-03/2024-01-03-06.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-</description>
-				<guid isPermaLink="true">/cubes/maxiv-leak-700/</guid>
 			</item>
 		
 	</channel>

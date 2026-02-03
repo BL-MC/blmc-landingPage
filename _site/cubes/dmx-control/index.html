@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Blinky-Max31865 System</title>
+	<title>Revolutionizing Vacuum Bake-Out Systems with DMX512</title>
 
     <link rel="stylesheet" type="text/css" href="/assets/css/styles_feeling_responsive.css">
 
@@ -26,23 +26,23 @@
 
 
 	<!-- Search Engine Optimization -->
-	<meta name="description" content="The Blinky-Max31865 System is a precision 4 wire temperature measurement system based on the MAX31865 chip">
+	<meta name="description" content="Lights! Action! Goodbye cables!">
 	<meta name="google-site-verification" content="Vk0IOJ2jwG_qEoG7fuEXYqv0m2rLa8P778Fi_GrsgEQ">
 	<meta name="msvalidate.01" content="0FB4C028ABCF07C908C54386ABD2D97F" >
 	
 	
 	
-	<link rel="canonical" href="/cubes/Blinky-Max31865/">
+	<link rel="canonical" href="/cubes/dmx-control/">
 
 
 	<!-- Facebook Open Graph -->
-	<meta property="og:title" content="Blinky-Max31865 System">
-	<meta property="og:description" content="The Blinky-Max31865 System is a precision 4 wire temperature measurement system based on the MAX31865 chip">
-	<meta property="og:url" content="/cubes/Blinky-Max31865/">
+	<meta property="og:title" content="Revolutionizing Vacuum Bake-Out Systems with DMX512">
+	<meta property="og:description" content="Lights! Action! Goodbye cables!">
+	<meta property="og:url" content="/cubes/dmx-control/">
 	<meta property="og:locale" content="en_EN">
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="BL Monitor and Control">
-	<meta property="og:image" content="/images/max31865Sys.jpg">
+	<meta property="og:image" content="/images/2026-02-03/dmxPromo.png">
 	<meta property="article:author" content="https://www.facebook.com/phlow.media">
 
 
@@ -51,9 +51,9 @@
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:site" content="phlow">
 	<meta name="twitter:creator" content="phlow">
-	<meta name="twitter:title" content="Blinky-Max31865 System">
-	<meta name="twitter:description" content="The Blinky-Max31865 System is a precision 4 wire temperature measurement system based on the MAX31865 chip">
-	<meta name="twitter:image" content="/images/max31865Sys.jpg">
+	<meta name="twitter:title" content="Revolutionizing Vacuum Bake-Out Systems with DMX512">
+	<meta name="twitter:description" content="Lights! Action! Goodbye cables!">
+	<meta name="twitter:image" content="/images/2026-02-03/dmxPromo.png">
 	
 
 	<link type="text/plain" rel="author" href="/humans.txt">
@@ -230,7 +230,7 @@
     
   
     
-        <a class="current">Blinky-Max31865 System</a>
+        <a class="current">Revolutionizing Vacuum Bake-Out Systems with DMX512</a>
     
   
 </nav>
@@ -244,7 +244,7 @@
 			<header>
 				
 				<figure>
-					<img src="/images/max31865Sys.jpg" width="970" alt="Blinky-Max31865 System" itemprop="image">
+					<img src="/images/2026-02-03/dmxPromo.png" width="970" alt="Revolutionizing Vacuum Bake-Out Systems with DMX512" itemprop="image">
 
 					
 				</figure>
@@ -252,60 +252,57 @@
 
 				<div itemprop="name">
 					<p class="subheadline">Instrumentation</p>
-					<h1>Blinky-Max31865 System</h1>
+					<h1>Revolutionizing Vacuum Bake-Out Systems with DMX512</h1>
 				</div>
 			</header>
 
 
 			
 			<p class="teaser" itemprop="description">
-				The Blinky-Max31865 System is a precision 4 wire temperature measurement system based on the MAX31865 chip
+				Lights! Action! Goodbye cables!
 			</p>
 			
 
 			<div itemprop="articleSection">
-			<p>Each module:</p>
+			<p>Building a remotely accessible ultra-high vacuum bake-out system presents a unique engineering challenge: managing significant power safely and affordably. Typically, these systems rely on <strong>800W to 2kW heating tapes</strong>. While we always utilize CE-marked, commercially available power converters for safety, we realized that using standard DC supplies for heat production was unnecessarily complex and expensive for simple resistive heating.</p>
+
+<h3 id="the-lighting-breakthrough-high-power-low-cost"><strong>The Lighting Breakthrough: High Power, Low Cost</strong></h3>
+
+<p>We discovered an elegant solution in an unexpected place: the theater. Channel dimmers used for theatrical lighting match our power requirements perfectly and are significantly more cost-effective than traditional DC power converters.</p>
+
+<p>By adopting <strong>DMX512</strong>—the industry standard for stage lighting—we gained a robust framework for control. Under the hood, DMX512 is essentially RS-485. To bridge this to our system, we built a custom interface using a <strong>Raspberry Pi PicoW</strong> and an <strong>SN75176A Differential Bus Transceiver</strong> chip.</p>
+
+<hr />
+
+<h3 id="under-the-hood-raspberry-pi-picow--pio"><strong>Under the Hood: Raspberry Pi PicoW &amp; PIO</strong></h3>
+
+<p>The Raspberry Pi PicoW is our “workhorse” for interfacing with our <strong>Blinky-Lite</strong> control system. Its architecture provides two major technical advantages for industrial control:</p>
+
 <ul>
-  <li>contains two channels with 15 bits of resolution.</li>
-  <li>is wireless and requires no communication cables.</li>
-  <li>is low power requiring a power source between 3.7 to 5.2V and draws a maximum current of 65mA</li>
-  <li>can be operated in pulse mode. The minium length of the current excitation pulse is 100 mS</li>
-  <li>packaged in a 4-mod wide DIN enclosure</li>
+  <li><strong>Dual-Core Efficiency:</strong> We dedicate one core entirely to Blinky-Lite communications and the second core to the custom logic for the specific device. This ensures that a heavy communication load never delays critical hardware control.</li>
+  <li><strong>The PIO Advantage:</strong> The PicoW features eight <strong>Programmable I/O (PIO)</strong> state machines. We use one of these to manage the DMX512 signal generation. Because the PIO handles the timing-critical bit-banging hardware-side, it doesn’t tax the main processor cores at all.</li>
+  <li><strong>Massive Scalability:</strong> While we currently only need to control a one-device “universe,” a single PIO state machine can handle 512 devices. With the PicoW’s eight PIO machines, this tiny controller theoretically has the power to manage <strong>4,096 DMX devices</strong>.</li>
 </ul>
 
-<p>The system allows the user to enter eighth order calibration curves for each temperature channel. The curves can be either a Taylor series expansion or a Chebyschev polynomial.</p>
+<hr />
 
-<h2 class="t60" id="other-post-instrumentation">Other Post Instrumentation</h2>
+<h3 id="reliability-in-the-wireless-world"><strong>Reliability in the Wireless World</strong></h3>
 
-<ul class="side-nav">
+<p>When we tell people we use wireless communications for industrial vacuum systems, the first question is always: <em>“Is it reliable?”</em></p>
 
-  
+<p>The answer is a definitive <strong>yes</strong>. When implemented with the right redundancies, wireless can be more reliable than a physical cable plant subject to wear and interference. Our “triple-layered strategy” for rock-solid communication includes:</p>
 
-    
-      <li><a href="/cubes/dmx-control/">Instrumentation &middot; <strong>Revolutionizing Vacuum Bake-Out Systems with DMX512</strong></a></li>
-    
-      <li><a href="/cubes/blinky-instrumentation-suite/">Instrumentation &middot; <strong>Blinky-Lite Instrumentation Suite</strong></a></li>
-    
-      <li><a href="/cubes/maxiv-leak-incident/">Instrumentation &middot; <strong>Water Leak Incident at MaxIV</strong></a></li>
-    
-      <li><a href="/cubes/arw2024-maxiv-leak/">Instrumentation &middot; <strong>The MaxIV Water Leak Detection System</strong></a></li>
-    
-      <li><a href="/cubes/maxiv-leak-700/">Instrumentation &middot; <strong>Over 700 meters of Blinky-Leak system operational at the Max-IV Light Source</strong></a></li>
-    
-      <li><a href="/cubes/Blinky-Thermo-Cam/">Instrumentation &middot; <strong>Blinky-Thermo-Cam </strong></a></li>
-    
-      <li><a href="/cubes/maxiv-server-leak/">Instrumentation &middot; <strong>Blinky-Leak system installed in Max-IV server rooms</strong></a></li>
-    
-      <li><a href="/cubes/Blinky-Max31865/">Instrumentation &middot; <strong>Blinky-Max31865 System</strong></a></li>
-    
-      <li><a href="/cubes/maxiv-leak/">Instrumentation &middot; <strong>Blinky-Leak System</strong></a></li>
-    
-      <li><a href="/trays/autoseum/">Control &middot; <strong>Simrishamn Autoseum</strong></a></li>
-    
+<ol>
+  <li><strong>MQTT Protocol:</strong> A robust, industry-standard messaging protocol for IoT.</li>
+  <li><strong>Watchdog Counters:</strong> Every device monitors both upload and download counters to instantly flag missing packets.</li>
+  <li><strong>Fail-Safe Actions:</strong> The system is programmed to take immediate “safe-state” actions (such as shutting down heaters) the moment a communication lapse is detected.</li>
+</ol>
 
-  
-</ul>
+<h3 id="beyond-the-lab"><strong>Beyond the Lab</strong></h3>
 
+<p>While we built this for ultra-high vacuum systems, the applications are endless. This controller is equally at home managing wireless theatrical lighting or any high-power industrial application where cabling is a liability.</p>
+
+<p>By thinking outside the box—and inside the theater—we’ve created a system that is safer, cheaper, and more scalable. Best of all? <strong>No more cables to trip over.</strong></p>
 
 			</div>
 
@@ -321,7 +318,7 @@
 				
 
 				
-				<time class="icon-calendar pr20" datetime="2023-10-01T00:00:00+02:00" itemprop="datePublished"> 2023-10-01</time>
+				<time class="icon-calendar pr20" datetime="2026-02-03T00:00:00+01:00" itemprop="datePublished"> 2026-02-03</time>
 				
 
 				<span class="icon-archive pr20"> CUBES</span>
@@ -332,11 +329,11 @@
 			
 			<div id="post-nav" class="row">
 				
-				<div class="medium-5 columns"><a class="button small radius prev" href="/cubes/maxiv-leak/">&laquo; Blinky-Leak System</a></div><!-- /.small-4.columns -->
+				<div class="medium-5 columns"><a class="button small radius prev" href="/boxes/twoRFsystemControl/">&laquo; Simultaneous Remote Control of RF systems</a></div><!-- /.small-4.columns -->
 				
 				<div class="medium-2 columns text-center"><a class="button small radius expand" href="/blog/archive/" title="Blog Archive">Archive</a></div><!-- /.small-4.columns -->
 				
-				<div class="medium-5 columns text-right"><a class="button small radius next" href="/cubes/maxiv-server-leak/">Blinky-Leak system installed in Max-IV server rooms &raquo;</a></div><!-- /.small-4.columns -->
+				<div class="medium-5 columns text-right"></div><!-- /.small-4.columns -->
 				
 			</div>
 			
