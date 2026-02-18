@@ -31,7 +31,7 @@
 
 
 	<!-- Search Engine Optimization -->
-	<meta name="description" content="Secure, remote access to custom high-performance hardware">
+	<meta name="description" content="We’ve built a modular toolbox that allows us to deploy sophisticated, industrial-grade control solutions with the speed of a startup.">
 	<meta name="google-site-verification" content="Vk0IOJ2jwG_qEoG7fuEXYqv0m2rLa8P778Fi_GrsgEQ">
 	<meta name="msvalidate.01" content="0FB4C028ABCF07C908C54386ABD2D97F" >
 	
@@ -42,7 +42,7 @@
 
 	<!-- Facebook Open Graph -->
 	<meta property="og:title" content="RSS Feed (Styled)">
-	<meta property="og:description" content="Secure, remote access to custom high-performance hardware">
+	<meta property="og:description" content="We’ve built a modular toolbox that allows us to deploy sophisticated, industrial-grade control solutions with the speed of a startup.">
 	<meta property="og:url" content="/assets/xslt/rss.xslt">
 	<meta property="og:locale" content="en_EN">
 	<meta property="og:type" content="website">
@@ -57,7 +57,7 @@
 	<meta name="twitter:site" content="phlow">
 	<meta name="twitter:creator" content="phlow">
 	<meta name="twitter:title" content="RSS Feed (Styled)">
-	<meta name="twitter:description" content="Secure, remote access to custom high-performance hardware">
+	<meta name="twitter:description" content="We’ve built a modular toolbox that allows us to deploy sophisticated, industrial-grade control solutions with the speed of a startup.">
 	
 	
 
@@ -158,6 +158,12 @@
           
           
         
+
+              
+
+          
+          
+        
         
       </ul>
       
@@ -179,6 +185,22 @@
 
 
           
+          
+        
+
+              
+
+
+
+          
+          
+            
+            
+              <li class="divider"></li>
+              <li><a  href="/info/">About</a></li>
+
+            
+            
           
         
 
@@ -225,8 +247,8 @@
 <div id="masthead-no-image-header">
 	<div class="row">
 		<div class="small-12 columns">
-			<a id="logo" href="/" title="BL Monitor and Control – We deliver secure, remote access to custom high-performance hardware">
-				<img src="/assets/img/logoSimple.png" alt="BL Monitor and Control – We deliver secure, remote access to custom high-performance hardware">
+			<a id="logo" href="/" title="BL Monitor and Control – We’ve built a modular toolbox that allows us to deploy sophisticated, industrial-grade control solutions with the speed of a startup.">
+				<img src="/assets/img/logoSimple.png" alt="BL Monitor and Control – We’ve built a modular toolbox that allows us to deploy sophisticated, industrial-grade control solutions with the speed of a startup.">
 			</a>
 		</div><!-- /.small-12.columns -->
 	</div><!-- /.row -->
@@ -303,7 +325,7 @@
             <h5 class="shadow-black">About This Site</h5>
 
             <p class="shadow-black">
-              Secure, remote access to custom high-performance hardware
+              We’ve built a modular toolbox that allows us to deploy sophisticated, industrial-grade control solutions with the speed of a startup.
               <a href="/info/">More</a>
             </p>
           </div><!-- /.large-6.columns -->

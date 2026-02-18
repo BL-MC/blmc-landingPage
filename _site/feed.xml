@@ -4,7 +4,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>BL Monitor and Control</title>
-		<description>Secure, remote access to custom high-performance hardware</description>
+		<description>We’ve built a modular toolbox that allows us to deploy sophisticated, industrial-grade control solutions with the speed of a startup.</description>
 		<link>/</link>
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		

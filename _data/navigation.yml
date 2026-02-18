@@ -15,6 +15,10 @@
 #  - title: "Post Archive"
 #    url: "/blog/archive/"
 
+- title: "About"
+  url: "/info/"
+  side: right
+
 - title: "Search"
   url: "/search/"
   side: right
