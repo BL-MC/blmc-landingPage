@@ -1,9 +1,19 @@
 ---
 layout              : page
-title               : ""
+title               : "People"
 meta_title          : ""
 subheadline         : ""
-teaser              : "Send us an email at:"
+teaser              : ""
 permalink           : "/contact/"
+header:
+    image_fullwidth: "mirrotronCoolingHdr.jpg"
 ---
-<a href = "mailto: info@bl-mc.se">info@bl-mc.se</a>
+## Georg Hulla, Ph.D
+![Georg Hulla](/images/georg.jpg)
+ - Chief Executive Officer
+ - <georg.hulla@bl-mc.se>
+## David McGinnis, Ph.D
+![David McGinnis](/images/mcginnis.jpg)
+ - Chief Technical Officer
+ - <david.mcginnis@bl-mc.se>
+ - +46 72 572 2472
