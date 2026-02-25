@@ -270,8 +270,8 @@
 <div id="masthead-no-image-header">
 	<div class="row">
 		<div class="small-12 columns">
-			<a id="logo" href="/" title="BL Monitor and Control – We’ve built a modular toolbox that allows us to deploy sophisticated, industrial-grade control solutions with the speed of a startup.">
-				<img src="/assets/img/logoSimple.png" alt="BL Monitor and Control – We’ve built a modular toolbox that allows us to deploy sophisticated, industrial-grade control solutions with the speed of a startup.">
+			<a id="logo" href="/" title="BL Monitor and Control – We have built a modular toolbox that allows us to deploy sophisticated, industrial-grade control solutions with the speed of a startup.">
+				<img src="/assets/img/logoSimple.png" alt="BL Monitor and Control – We have built a modular toolbox that allows us to deploy sophisticated, industrial-grade control solutions with the speed of a startup.">
 			</a>
 		</div><!-- /.small-12.columns -->
 	</div><!-- /.row -->
