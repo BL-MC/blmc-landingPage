@@ -16,4 +16,4 @@ header:
 ![David McGinnis](/images/mcginnis.jpg)
  - Chief Technical Officer
  - <david.mcginnis@bl-mc.se>
- - +46 72 572 2472
+
