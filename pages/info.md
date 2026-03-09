@@ -27,7 +27,7 @@ But unknown to the operators, <span style="color:cyan;"><b>this pump is importan
 
 <span style="color:cyan;"><b>then disaster could have been avoided.</b></span>
 
-Sounds melodramatic? From our long experience working at large facilites, we can assure you it is not. That is why we developed the <span style="color:cyan;"><b>Blinky-Lite<sup>TM</sup></b></span> control platform.
+Sounds melodramatic? From our long experience working at large facilities, we can assure you it is not. That is why we developed the <span style="color:cyan;"><b>Blinky-Lite<sup>TM</sup></b></span> control platform.
 
 ## The Solution - The Blinky-Lite<sup>TM</sup> Toolbox 
 What is so different about Blinky-Lite?  Well, it is in the way Blinky-Lite<sup>TM</sup> communicates. 
@@ -42,7 +42,7 @@ With publish subscribe, three important things happen.
 Check out the <a href="https://blinky-lite.org/">Blinky-Lite<sup>TM</sup></a> site for more details.
 
 ## Our Business Model: Hardware & Automation
-While the Blinky-Lite<sup>TM</sup> is open-source and dsitributed under the <a href="https://opensource.org/license/mit">MIT License</a>, we monetize the physical and logical layers of building a control system:
+While the Blinky-Lite<sup>TM</sup> is open-source and distributed under the <a href="https://opensource.org/license/mit">MIT License</a>, we monetize the physical and logical layers of building a control system:
 
 1. <span style="color:cyan;"><b>Instrumentation and high performance hardware: </b></span> We provide integrated high-precision instrumentation for a wide variety of interfaces and requirements.
 2. <span style="color:cyan;"><b>Connectivity:</b></span> We provide integrated interfaces that act as the secure gateway for your hardware.
