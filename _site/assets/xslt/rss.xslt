@@ -151,21 +151,6 @@
 
           
           
-
-            
-            
-              <li><a  href="https://blinky-lite.com/" target="_blank">Demo</a></li>
-              <li class="divider"></li>
-
-            
-            
-          
-        
-
-              
-
-          
-          
         
 
               
@@ -209,6 +194,14 @@
 
           
           
+            
+            
+              <li class="divider"></li>
+              <li><a  href="/#contact-page">Contact</a></li>
+
+            
+            
+          
         
 
               
@@ -237,22 +230,6 @@
             
               <li class="divider"></li>
               <li><a  href="/search/">Search</a></li>
-
-            
-            
-          
-        
-
-              
-
-
-
-          
-          
-            
-            
-              <li class="divider"></li>
-              <li><a  href="/contact/">Contact</a></li>
 
             
             

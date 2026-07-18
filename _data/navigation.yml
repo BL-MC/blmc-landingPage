@@ -14,9 +14,9 @@
 #    url: "/cubes/"
 #  - title: "Post Archive"
 #    url: "/blog/archive/"
-- title: "Demo"
-  url: "https://blinky-lite.com/"
-  side: left
+- title: "Contact"
+  url: "/#contact-page"
+  side: right
 
 - title: "About"
   url: "/info/"
@@ -26,6 +26,3 @@
   url: "/search/"
   side: right
 
-- title: "Contact"
-  url: "/contact/"
-  side: right

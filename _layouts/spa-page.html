@@ -5,6 +5,9 @@ layout: compress
 <html class="no-js" lang="{% if site.language == nil %}en{% else %}{{ site.language }}{% endif %}">
 <head>
 	{% include _head.html %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blinky-Lite | IT-Invisible Industrial Edge Gateway</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
@@ -14,7 +17,7 @@ layout: compress
         .accent-glow {
             box-shadow: 0 0 20px rgba(59, 130, 246, 0.15);
         }
-        /* Smooth page transition adjustments */
+        /* SPA Layout Navigation Routing */
         .page-section {
             display: none;
         }
@@ -25,7 +28,6 @@ layout: compress
 </head>
 <body class="bg-slate-900 text-slate-100 font-sans antialiased flex flex-col min-h-screen">
 	{% include _navigation.html %}
-
     <header class="border-b border-slate-800 bg-slate-950/80 backdrop-blur sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
             <div class="flex items-center space-x-3">
@@ -34,9 +36,10 @@ layout: compress
                     <span class="font-bold text-xl tracking-wider text-white">BLINKY<span class="text-blue-500">-LITE</span></span>
                 </a>
             </div>
-            <nav class="hidden md:flex space-x-8 text-sm font-medium text-slate-400">
+            <nav class="hidden lg:flex space-x-6 text-sm font-medium text-slate-400">
                 <a href="#advantages-page" class="hover:text-blue-400 transition">Core Advantages</a>
                 <a href="#capabilities-page" class="hover:text-blue-400 transition">Capabilities & Protocols</a>
+                <a href="#digital-twin-page" class="hover:text-blue-400 transition">Digital Twins</a>
                 <a href="#validation-page" class="hover:text-blue-400 transition">Proven Validation</a>
             </nav>
             <div>
@@ -105,7 +108,7 @@ layout: compress
                     <i data-lucide="arrow-left" class="w-4 h-4"></i> <span>Back to Overview</span>
                 </a>
                 <h2 class="text-3xl md:text-5xl font-black text-white tracking-tight">Architectural Advantages</h2>
-                <p class="text-slate-400 mt-2 text-lg">Breaking down the proprietary "Trojan Horse" implementation parameters.</p>
+                <p class="text-slate-400 mt-2 text-lg">Breaking down the proprietary "Trojan Horse" implementation parameters of the Blinky-Lite ecosystem.</p>
             </div>
 
             <div class="grid md:grid-cols-2 gap-8">
@@ -164,6 +167,82 @@ layout: compress
             </div>
         </div>
 
+        <div id="digital-twin-page" class="page-section py-20 max-w-7xl mx-auto px-6">
+            <div class="mb-12">
+                <a href="#" class="text-blue-400 hover:underline flex items-center space-x-1 text-sm font-medium mb-4">
+                    <i data-lucide="arrow-left" class="w-4 h-4"></i> <span>Back to Overview</span>
+                </a>
+                <h2 class="text-3xl md:text-5xl font-black text-white tracking-tight">Virtual Asset Modeling & Digital Twins</h2>
+                <p class="text-slate-400 mt-2 text-lg">How the Blinky-Lite framework powers virtual synchronization to map physical lifecycles in the cloud.</p>
+            </div>
+
+            <div class="grid lg:grid-cols-3 gap-8 items-start">
+                <div class="lg:col-span-2 space-y-6">
+                    <div class="bg-slate-950 border border-slate-800 rounded-xl p-6 space-y-4">
+                        <h3 class="text-xl font-bold text-white flex items-center space-x-2">
+                            <i data-lucide="layers" class="text-blue-400"></i>
+                            <span>The Edge-Twin Blueprint</span>
+                        </h3>
+                        <p class="text-slate-400 text-sm leading-relaxed">
+                            Through our dynamic integration engine, simple physical elements—such as industrial field machinery and modules—are transformed from disconnected assets into <strong>active digital models</strong> with live properties. Blinky-Lite coordinates tracking arrays across the entire operational network.
+                        </p>
+                        <div class="grid sm:grid-cols-3 gap-4 font-mono text-xs text-center mt-2">
+                            <div class="p-3 bg-slate-900 border border-slate-800 rounded text-slate-300">
+                                <span class="block font-bold text-blue-400 mb-1">ASSET IDENTITY</span> Unique Hardware IDs & State Parameters
+                            </div>
+                            <div class="p-3 bg-slate-900 border border-slate-800 rounded text-slate-300">
+                                <span class="block font-bold text-indigo-400 mb-1">LIVE TELEMETRY</span> Real-time sensory logs & performance metrics
+                            </div>
+                            <div class="p-3 bg-slate-900 border border-slate-800 rounded text-slate-300">
+                                <span class="block font-bold text-emerald-400 mb-1">ALARM CHANNELS</span> Pub/Sub Warning Notifications
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-slate-950 border border-slate-800 rounded-xl p-6 space-y-4">
+                        <h3 class="text-xl font-bold text-white flex items-center space-x-2">
+                            <i data-lucide="git-branch" class="text-indigo-400"></i>
+                            <span>Pre-Deployment Optimization Engine</span>
+                        </h3>
+                        <p class="text-slate-400 text-sm leading-relaxed">
+                            When equipment is in final design cycles or physically unavailable for live scaling tests, Blinky-Lite runs <strong class="text-slate-400 font-bold">virtual digital twin fleets</strong> in the cloud. Even after physical deployment, these cloud twins process streaming telemetry to train predictive AI models that optimize supply chains, inventory, transport routing, and pricing models.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-slate-950 border border-slate-800 rounded-xl p-6 accent-glow space-y-4 font-mono text-xs">
+                    <div class="flex justify-between items-center text-slate-500 pb-2 border-b border-slate-800">
+                        <span>[MOCK] TWIN SIMULATOR</span>
+                        <span class="text-blue-400">ACTIVE</span>
+                    </div>
+                    <div class="space-y-3 text-sm">
+                        <div>
+                            <span class="text-slate-500 block text-xs">ASSET HEARTBEAT</span>
+                            <div class="text-green-400 flex items-center space-x-2 mt-0.5">
+                                <span class="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
+                                <span>ONLINE (SYNCHRONIZED)</span>
+                            </div>
+                        </div>
+                        <div>
+                            <span class="text-slate-500 block text-xs">OPERATIONAL LOAD LEVEL</span>
+                            <div class="w-full bg-slate-900 rounded-full h-2 mt-1 border border-slate-800 overflow-hidden">
+                                <div class="bg-blue-500 h-full w-3/4"></div>
+                            </div>
+                            <span class="text-slate-400 text-xs mt-1 block">75% Capacity Utilized</span>
+                        </div>
+                        <div class="pt-2 border-t border-slate-800">
+                            <span class="text-slate-500 block text-xs">SYSTEM AUTHENTICATION CHECKS</span>
+                            <ul class="space-y-1 text-xs text-slate-400 mt-1">
+                                <li class="flex items-center space-x-1.5"><i data-lucide="check" class="w-3 h-3 text-green-400"></i> <span>Hardware Serial Registered</span></li>
+                                <li class="flex items-center space-x-1.5"><i data-lucide="check" class="w-3 h-3 text-green-400"></i> <span>Telemetry Alignment Passed</span></li>
+                                <li class="flex items-center space-x-1.5"><i data-lucide="check" class="w-3 h-3 text-green-400"></i> <span>Registry Check Valid</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div id="validation-page" class="page-section py-20 max-w-7xl mx-auto px-6">
             <div class="mb-12">
                 <a href="#" class="text-blue-400 hover:underline flex items-center space-x-1 text-sm font-medium mb-4">
@@ -177,10 +256,20 @@ layout: compress
                 <div class="bg-slate-950 border border-slate-800 rounded-xl p-8 grid md:grid-cols-3 gap-6 items-center">
                     <div class="md:col-span-2 space-y-4">
                         <span class="text-xs font-mono px-2.5 py-1 bg-blue-500/10 text-blue-400 rounded-full border border-blue-500/20 font-semibold uppercase">Big Science & Automation</span>
-                        <h3 class="text-2xl font-bold text-white"><a href="#" data-reveal-id="videoModal1" onclick="toppy(1)" >Fermilab National Accelerator Laboratory</a></h3>
+                        <h3 class="text-2xl font-bold text-white">Compact Particle Accelerators for Medical Applications</h3>
                         <p class="text-slate-400 text-sm leading-relaxed">
                             Blinky-Lite proved its precision automation capabilities by actively managing a compact particle accelerator configuration. The system utilized our edge hardware layer to control critical workflows smoothly without interfering with laboratory security policies.
                         </p>
+                        <div class="pt-2">
+                            <a href="#" data-reveal-id="videoModal1" onclick="toppy(1)" class="inline-flex items-center space-x-2 text-xs bg-slate-900 hover:bg-slate-800 border border-slate-800 text-blue-400 font-mono px-3 py-2 rounded transition">
+                                <i data-lucide="video" class="w-3.5 h-3.5"></i>
+                                <span>Compact Superconducting Accelertor for Medical Sterilization</span>
+                            </a>
+                            <a href="#" data-reveal-id="videoModal2" onclick="toppy(2)" class="inline-flex items-center space-x-2 text-xs bg-slate-900 hover:bg-slate-800 border border-slate-800 text-blue-400 font-mono px-3 py-2 rounded transition">
+                                <i data-lucide="video" class="w-3.5 h-3.5"></i>
+                                <span>Compact Neutron Source for Boron Neutron Capture Therapy (BNCT)</span>
+                            </a>
+                        </div>
                     </div>
                     <div class="bg-slate-900 border border-slate-800 p-4 rounded-lg font-mono text-xs text-center space-y-1">
                         <div class="text-slate-500">DEPLOYMENT CONTEXT</div>
@@ -190,11 +279,51 @@ layout: compress
 
                 <div class="bg-slate-950 border border-slate-800 rounded-xl p-8 grid md:grid-cols-3 gap-6 items-center">
                     <div class="md:col-span-2 space-y-4">
+                        <span class="text-xs font-mono px-2.5 py-1 bg-indigo-500/10 text-indigo-400 rounded-full border border-indigo-500/20 font-semibold uppercase">Machine Learning Fleet Optimization</span>
+                        <h3 class="text-2xl font-bold text-white">Cross-Site Enterprise AI Ingestion</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed">
+                            Demonstrated secure, cross-site outbound tunneling by channeling active time-series datasets over massive distances directly into advanced training systems, solving the common industry data-cleaning bottleneck.
+                        </p>
+                    </div>
+                    <div class="bg-slate-900 border border-slate-800 p-4 rounded-lg font-mono text-xs text-center space-y-1">
+                        <div class="text-slate-500">DEPLOYMENT CONTEXT</div>
+                        <div class="text-white font-bold text-sm">Remote AI Fleet Training</div>
+                    </div>
+                </div>
+
+                <div class="bg-slate-950 border border-slate-800 rounded-xl p-8 grid md:grid-cols-3 gap-6 items-center">
+                    <div class="md:col-span-2 space-y-4">
+                        <span class="text-xs font-mono px-2.5 py-1 bg-teal-500/10 text-teal-400 rounded-full border border-teal-500/20 font-semibold uppercase">Cloud Simulation & Digital Twins</span>
+                        <h3 class="text-2xl font-bold text-white">Lifecycle Tracking (Cradle-to-Grave)</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed">
+                            Engineered dynamic virtual twins for complex dispenser setups during active prototyping stages. The platform safely modeled live physical changes (scale weights, QR parameters, and remaining capacity tracking) to build robust logistics, alert rules, and usage models before hardware manufacturing finished.
+                        </p>
+                        <div class="pt-2">
+                            <a href="#" data-reveal-id="videoModal3" onclick="toppy(3)" class="inline-flex items-center space-x-2 text-xs bg-slate-900 hover:bg-slate-800 border border-slate-800 text-teal-400 font-mono px-3 py-2 rounded transition">
+                                <i data-lucide="video" class="w-3.5 h-3.5"></i>
+                                <span>The ConcenSmart System</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="bg-slate-900 border border-slate-800 p-4 rounded-lg font-mono text-xs text-center space-y-1">
+                        <div class="text-slate-500">DEPLOYMENT CONTEXT</div>
+                        <div class="text-white font-bold text-sm">Virtual Network Twin Lifecycle</div>
+                    </div>
+                </div>
+
+                <div class="bg-slate-950 border border-slate-800 rounded-xl p-8 grid md:grid-cols-3 gap-6 items-center">
+                    <div class="md:col-span-2 space-y-4">
                         <span class="text-xs font-mono px-2.5 py-1 bg-emerald-500/10 text-emerald-400 rounded-full border border-emerald-500/20 font-semibold uppercase">Commercial Industrial Retrofit</span>
-                        <h3 class="text-2xl font-bold text-white"><a href="#" data-reveal-id="videoModal4" onclick="toppy(4)" >Factory PLC Heatpump Servitization</a></h3>
+                        <h3 class="text-2xl font-bold text-white">Dual-Fuel Crossover System</h3>
                         <p class="text-slate-400 text-sm leading-relaxed">
                             Integrated via Modbus protocol inside an active factory to extract critical compressor signals. Telemetry bypassed local networks cleanly via an outbound path directly to the OEM—allowing instant predictive maintenance and monetization opportunities.
                         </p>
+                        <div class="pt-2">
+                            <a href="#" data-reveal-id="videoModal4" onclick="toppy(4)" class="inline-flex items-center space-x-2 text-xs bg-slate-900 hover:bg-slate-800 border border-slate-800 text-emerald-400 font-mono px-3 py-2 rounded transition">
+                                <i data-lucide="video" class="w-3.5 h-3.5"></i>
+                                <span>A Legacy Heat Pump Crossover Control</span>
+                            </a>
+                        </div>
                     </div>
                     <div class="bg-slate-900 border border-slate-800 p-4 rounded-lg font-mono text-xs text-center space-y-1">
                         <div class="text-slate-500">DEPLOYMENT CONTEXT</div>
@@ -218,9 +347,21 @@ layout: compress
                     Blinky-Lite is fully engineered, functional, and governed by its founding two-man team. Strategic players, predictive maintenance platforms, or industrial hardware conglomerates looking to ingest our protocol-native architecture are invited to initiate talks.
                 </p>
                 <div class="border-t border-slate-800 pt-6 text-center">
-                    <a href="mailto:founders@blinky-lite-placeholder.com" class="inline-block bg-blue-600 hover:bg-blue-500 text-white font-semibold px-8 py-4 rounded shadow-lg shadow-blue-600/15 transition">
-                        Initiate Founder-Direct Dialogue
+                    <a href="mailto:info@bl-mc.se?subject=Founder-Direct%20Dialogue" class="inline-block bg-blue-600 hover:bg-blue-500 text-white font-semibold px-8 py-4 rounded shadow-lg shadow-blue-600/15 transition">
+                       <span>Initiate Founder-Direct Dialogue</span>
                     </a>
+                </div>
+                <div class="text-center">
+                    <div class="inline-flex flex-col items-center gap-3 text-white font-semibold px-8 py-4">
+                        <img src="/images/georg.png" alt="Icon" class="w-20 h-20">
+                        <span>CEO Georg Hulla Ph.D</span>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="inline-flex flex-col items-center gap-3 text-white font-semibold px-8 py-4">
+                        <img src="/images/dave.png" alt="Icon" class="w-20 h-20">
+                        <span>CTO David McGinnis Ph.D</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -266,6 +407,10 @@ layout: compress
         // Initialize Lucide Icons graphics library
         lucide.createIcons();
     </script>
+
+
+
+
     <div id="videoModal1" class="reveal-modal large" data-reveal="">
         <div class="flex-video widescreen vimeo" style="display: block;">
         <iframe width="1280" height="720" src="https://player.vimeo.com/video/1128899793?dnt=1" frameborder="0" allowfullscreen></iframe>
