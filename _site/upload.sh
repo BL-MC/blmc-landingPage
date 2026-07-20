@@ -2,4 +2,4 @@
 bundle exec jekyll build
 git add .
 git commit -m "$1"
-git push origin spa
+git push origin spa2
